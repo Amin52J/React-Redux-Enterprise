@@ -1,0 +1,6 @@
+node_modules/**
+reports/**
+public/**
+view/**
+**/*.test.js
+/*.js

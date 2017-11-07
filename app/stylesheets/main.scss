@@ -1,0 +1,18 @@
+@import "common";
+@import "theme";
+
+html {
+  body {
+    overflow-x: hidden;
+
+    /* import elements */
+    @import "../elements/test/index";
+
+    /* import components */
+    @import "../components/test/index";
+
+    /* import containers */
+    @import "../containers/app/index";
+    @import "../containers/home/index";
+  }
+}
