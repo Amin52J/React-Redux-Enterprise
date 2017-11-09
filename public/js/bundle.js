@@ -1186,6 +1186,7 @@ Object.defineProperty(exports, "__esModule", {
 var TEST = exports.TEST = 'TEST';
 var TEST_ERROR = exports.TEST_ERROR = 'TEST_ERROR';
 var TEST_SUCCESS = exports.TEST_SUCCESS = 'TEST_SUCCESS';
+var TEST_CANCEL = exports.TEST_CANCEL = 'TEST_CANCEL';
 var HOME_TEST = exports.HOME_TEST = 'HOME_TEST';
 var HOME_TEST_ERROR = exports.HOME_TEST_ERROR = 'HOME_TEST_ERROR';
 var HOME_TEST_SUCCESS = exports.HOME_TEST_SUCCESS = 'HOME_TEST_SUCCESS';
@@ -6490,6 +6491,15 @@ Object.defineProperty(exports, 'passPropsToChildren', {
   }
 });
 
+var _getStore = __webpack_require__(224);
+
+Object.defineProperty(exports, 'store', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_getStore).default;
+  }
+});
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
@@ -6606,8 +6616,6 @@ Observable_1.Observable.prototype._catch = catch_1._catch;
 "use strict";
 
 
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
@@ -6618,47 +6626,25 @@ var _reactDom2 = _interopRequireDefault(_reactDom);
 
 var _reactRouter = __webpack_require__(50);
 
-var _redux = __webpack_require__(62);
-
 var _reactRedux = __webpack_require__(67);
 
 var _reactRouterRedux = __webpack_require__(167);
-
-var _reduxObservable = __webpack_require__(74);
 
 var _routes = __webpack_require__(196);
 
 var _routes2 = _interopRequireDefault(_routes);
 
-var _reducer = __webpack_require__(205);
-
-var _reducer2 = _interopRequireDefault(_reducer);
-
-var _reducers = __webpack_require__(206);
-
-var reducers = _interopRequireWildcard(_reducers);
-
-var _epics = __webpack_require__(209);
-
-var _epics2 = _interopRequireDefault(_epics);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _hoc = __webpack_require__(93);
 
 __webpack_require__(216);
 
-var epicMiddleware = (0, _reduxObservable.createEpicMiddleware)(_epics2.default);
-var combinedReducers = (0, _redux.combineReducers)(_extends({}, reducers, {
-  routing: _reactRouterRedux.routerReducer
-}));
-var reducer = (0, _reducer2.default)(combinedReducers);
-var store = (0, _redux.createStore)(reducer, (0, _redux.applyMiddleware)(epicMiddleware));
-var history = (0, _reactRouterRedux.syncHistoryWithStore)(_reactRouter.browserHistory, store);
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var history = (0, _reactRouterRedux.syncHistoryWithStore)(_reactRouter.browserHistory, _hoc.store);
 
 _reactDom2.default.render(_react2.default.createElement(
   _reactRedux.Provider,
-  { store: store },
+  { store: _hoc.store },
   _react2.default.createElement(_reactRouter.Router, { history: history, routes: _routes2.default })
 ), document.getElementById('app'));
 
@@ -33812,10 +33798,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.test = undefined;
 
-var _ajax = __webpack_require__(96);
-
-var _of = __webpack_require__(43);
-
 var _actionTypes = __webpack_require__(12);
 
 var types = _interopRequireWildcard(_actionTypes);
@@ -33824,20 +33806,16 @@ var _action = __webpack_require__(92);
 
 var actions = _interopRequireWildcard(_action);
 
-__webpack_require__(97);
-
-__webpack_require__(98);
-
-__webpack_require__(99);
-
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
-var test = exports.test = function test(action$) {
+var test = exports.test = function test(action$, store, _ref) {
+  var getJSON = _ref.getJSON,
+      of = _ref.of;
   return action$.ofType(types.TEST).mergeMap(function (action) {
-    return _ajax.ajax.getJSON('https://api.github.com/users/' + action.payload).map(function (response) {
+    return getJSON('https://api.github.com/users/' + action.payload).map(function (response) {
       return actions.testSuccess(response);
-    }).catch(function (error) {
-      return (0, _of.of)(actions.testError(error));
+    }).takeUntil(action$.ofType(types.TEST_CANCEL)).catch(function (error) {
+      return of(actions.testError(error));
     });
   });
 };
@@ -35082,6 +35060,205 @@ var _react = __webpack_require__(0);
 var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ }),
+/* 221 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(1);
+var takeUntil_1 = __webpack_require__(222);
+Observable_1.Observable.prototype.takeUntil = takeUntil_1.takeUntil;
+//# sourceMappingURL=takeUntil.js.map
+
+/***/ }),
+/* 222 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var takeUntil_1 = __webpack_require__(223);
+/**
+ * Emits the values emitted by the source Observable until a `notifier`
+ * Observable emits a value.
+ *
+ * <span class="informal">Lets values pass until a second Observable,
+ * `notifier`, emits something. Then, it completes.</span>
+ *
+ * <img src="./img/takeUntil.png" width="100%">
+ *
+ * `takeUntil` subscribes and begins mirroring the source Observable. It also
+ * monitors a second Observable, `notifier` that you provide. If the `notifier`
+ * emits a value, the output Observable stops mirroring the source Observable
+ * and completes.
+ *
+ * @example <caption>Tick every second until the first click happens</caption>
+ * var interval = Rx.Observable.interval(1000);
+ * var clicks = Rx.Observable.fromEvent(document, 'click');
+ * var result = interval.takeUntil(clicks);
+ * result.subscribe(x => console.log(x));
+ *
+ * @see {@link take}
+ * @see {@link takeLast}
+ * @see {@link takeWhile}
+ * @see {@link skip}
+ *
+ * @param {Observable} notifier The Observable whose first emitted value will
+ * cause the output Observable of `takeUntil` to stop emitting values from the
+ * source Observable.
+ * @return {Observable<T>} An Observable that emits the values from the source
+ * Observable until such time as `notifier` emits its first value.
+ * @method takeUntil
+ * @owner Observable
+ */
+function takeUntil(notifier) {
+    return takeUntil_1.takeUntil(notifier)(this);
+}
+exports.takeUntil = takeUntil;
+//# sourceMappingURL=takeUntil.js.map
+
+/***/ }),
+/* 223 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var OuterSubscriber_1 = __webpack_require__(40);
+var subscribeToResult_1 = __webpack_require__(41);
+/**
+ * Emits the values emitted by the source Observable until a `notifier`
+ * Observable emits a value.
+ *
+ * <span class="informal">Lets values pass until a second Observable,
+ * `notifier`, emits something. Then, it completes.</span>
+ *
+ * <img src="./img/takeUntil.png" width="100%">
+ *
+ * `takeUntil` subscribes and begins mirroring the source Observable. It also
+ * monitors a second Observable, `notifier` that you provide. If the `notifier`
+ * emits a value or a complete notification, the output Observable stops
+ * mirroring the source Observable and completes.
+ *
+ * @example <caption>Tick every second until the first click happens</caption>
+ * var interval = Rx.Observable.interval(1000);
+ * var clicks = Rx.Observable.fromEvent(document, 'click');
+ * var result = interval.takeUntil(clicks);
+ * result.subscribe(x => console.log(x));
+ *
+ * @see {@link take}
+ * @see {@link takeLast}
+ * @see {@link takeWhile}
+ * @see {@link skip}
+ *
+ * @param {Observable} notifier The Observable whose first emitted value will
+ * cause the output Observable of `takeUntil` to stop emitting values from the
+ * source Observable.
+ * @return {Observable<T>} An Observable that emits the values from the source
+ * Observable until such time as `notifier` emits its first value.
+ * @method takeUntil
+ * @owner Observable
+ */
+function takeUntil(notifier) {
+    return function (source) { return source.lift(new TakeUntilOperator(notifier)); };
+}
+exports.takeUntil = takeUntil;
+var TakeUntilOperator = (function () {
+    function TakeUntilOperator(notifier) {
+        this.notifier = notifier;
+    }
+    TakeUntilOperator.prototype.call = function (subscriber, source) {
+        return source.subscribe(new TakeUntilSubscriber(subscriber, this.notifier));
+    };
+    return TakeUntilOperator;
+}());
+/**
+ * We need this JSDoc comment for affecting ESDoc.
+ * @ignore
+ * @extends {Ignored}
+ */
+var TakeUntilSubscriber = (function (_super) {
+    __extends(TakeUntilSubscriber, _super);
+    function TakeUntilSubscriber(destination, notifier) {
+        _super.call(this, destination);
+        this.notifier = notifier;
+        this.add(subscribeToResult_1.subscribeToResult(this, notifier));
+    }
+    TakeUntilSubscriber.prototype.notifyNext = function (outerValue, innerValue, outerIndex, innerIndex, innerSub) {
+        this.complete();
+    };
+    TakeUntilSubscriber.prototype.notifyComplete = function () {
+        // noop
+    };
+    return TakeUntilSubscriber;
+}(OuterSubscriber_1.OuterSubscriber));
+//# sourceMappingURL=takeUntil.js.map
+
+/***/ }),
+/* 224 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _reactRouterRedux = __webpack_require__(167);
+
+var _redux = __webpack_require__(62);
+
+var _reduxObservable = __webpack_require__(74);
+
+var _reducer = __webpack_require__(205);
+
+var _reducer2 = _interopRequireDefault(_reducer);
+
+var _reducers = __webpack_require__(206);
+
+var reducers = _interopRequireWildcard(_reducers);
+
+var _epics = __webpack_require__(209);
+
+var _epics2 = _interopRequireDefault(_epics);
+
+var _ajax = __webpack_require__(96);
+
+var _of = __webpack_require__(43);
+
+__webpack_require__(97);
+
+__webpack_require__(98);
+
+__webpack_require__(99);
+
+__webpack_require__(221);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var epicMiddleware = (0, _reduxObservable.createEpicMiddleware)(_epics2.default, {
+  dependencies: {
+    getJSON: _ajax.ajax.getJSON,
+    of: _of.of
+  }
+});
+var combinedReducers = (0, _redux.combineReducers)(_extends({}, reducers, {
+  routing: _reactRouterRedux.routerReducer
+}));
+var reducer = (0, _reducer2.default)(combinedReducers);
+
+var store = (0, _redux.createStore)(reducer, (0, _redux.applyMiddleware)(epicMiddleware));
+exports.default = store;
 
 /***/ })
 /******/ ]);
