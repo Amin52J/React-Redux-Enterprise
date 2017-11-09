@@ -39,6 +39,7 @@ module.exports = {
       '@elements': path.resolve('app/elements'),
       '@hoc': path.resolve('app/hoc'),
       '@reducers': path.resolve('app/reducers'),
+      '@epics': path.resolve('app/epics'),
       '@root': path.resolve('app')
     }
   },

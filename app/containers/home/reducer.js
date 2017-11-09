@@ -2,16 +2,29 @@ import * as types from '@constants/actionTypes';
 
 const initialState = {};
 
-export default function app(state = initialState, action) {
-  const newState = JSON.parse(JSON.stringify(state));
+export default function home(state = initialState, action) {
   switch (action.type) {
-    case types.TEST:
-      newState.success = true;
-      return newState;
+    case types.HOME_TEST:
+      return {
+        ...state,
+        loading: true
+      };
 
-    case types.TEST_ERROR:
-      newState.error = true;
-      return newState;
+    case types.HOME_TEST_SUCCESS:
+      console.info(action.payload);
+      return {
+        ...state,
+        loading: false,
+        success: true
+      };
+
+    case types.HOME_TEST_ERROR:
+      console.log(action.payload);
+      return {
+        ...state,
+        loading: false,
+        error: true
+      };
 
     default:
       return state;

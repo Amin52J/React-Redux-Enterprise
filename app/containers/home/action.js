@@ -1,29 +1,22 @@
 import * as types from '@constants/actionTypes';
-import Common from '@constants/common';
 
-function dispatchTest(data) {
+export function test(payload) {
   return {
-    type: types.TEST,
-    data
+    type: types.HOME_TEST,
+    payload
   };
 }
 
-function dispatchTestError(data) {
+export function testSuccess(payload) {
   return {
-    type: types.TEST_ERROR,
-    data
+    type: types.HOME_TEST_SUCCESS,
+    payload
   };
 }
 
-export function test(link) {
-  return dispatch => (
-    Common.request
-      .get(link)
-      .then(response => {
-        dispatch(dispatchTest(response));
-      })
-      .catch(err => {
-        dispatch(dispatchTestError(err));
-      })
-  );
+export function testError(payload) {
+  return {
+    type: types.HOME_TEST_ERROR,
+    payload
+  };
 }
