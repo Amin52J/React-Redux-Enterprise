@@ -6481,6 +6481,15 @@ Object.defineProperty(exports, 'cleanOnUnmount', {
   }
 });
 
+var _passPropsToChildren = __webpack_require__(220);
+
+Object.defineProperty(exports, 'passPropsToChildren', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_passPropsToChildren).default;
+  }
+});
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
@@ -33330,13 +33339,13 @@ var App = function (_React$Component) {
     value: function render() {
       var appData = this.props.app.appData;
 
-      console.log(this.props.app);
+      console.log(this.props.app, appData);
 
       return _react2.default.createElement(
         'div',
         { className: 'app' },
         'App Page',
-        this.props.children
+        (0, _hoc.passPropsToChildren)(this.props.children)
       );
     }
   }]);
@@ -33480,6 +33489,7 @@ var Home = function (_React$Component) {
     value: function render() {
       var test = this.props.home.test;
 
+      console.log(test);
 
       return _react2.default.createElement(
         'div',
@@ -35047,6 +35057,31 @@ module.exports = self.fetch.bind(self);
   self.fetch.polyfill = true
 })(typeof self !== 'undefined' ? self : this);
 
+
+/***/ }),
+/* 218 */,
+/* 219 */,
+/* 220 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+exports.default = function (ComponentsSet, props) {
+  return _react2.default.Children.map(ComponentsSet, function (child) {
+    return _react2.default.cloneElement(child, props);
+  });
+};
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ })
 /******/ ]);
