@@ -10,7 +10,9 @@ This repo is the minimal and extendable setup to start a new enterprise large-sc
 * **eslint:** to have linting utility over our code
 * **postcss:** to have autoprefixer
 * **react:** as our framework
+* **react-redux:** to handle data flow
 * **react-router:** to handle routing
+* **react-router-redux:** to handle routing
 * **redux:** to handle data flow
 * **redux-observable:** to handle async actions
 * **rxjs:** to handle observable actions
