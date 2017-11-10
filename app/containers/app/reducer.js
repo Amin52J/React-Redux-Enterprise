@@ -15,7 +15,8 @@ export default function app(state = initialState, action) {
       return {
         ...state,
         loading: false,
-        success: true
+        success: true,
+        appData: action.payload
       };
 
     case types.TEST_ERROR:

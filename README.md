@@ -15,6 +15,7 @@ This repo is the minimal and extendable setup to start a new enterprise large-sc
 * **react-router-redux:** to handle routing
 * **redux:** to handle data flow
 * **redux-observable:** to handle async actions
+* **redux-persist:** to have persistent store
 * **rxjs:** to handle observable actions
 * **sass:** as our style language
 * **webpack:** as our module bundler

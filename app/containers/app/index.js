@@ -8,7 +8,9 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    this.props.test('amin52j');
+    if (!this.props.app.appData) {
+      this.props.test('amin52j');
+    }
   }
 
   render() {

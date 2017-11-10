@@ -6,12 +6,17 @@ import {syncHistoryWithStore} from 'react-router-redux';
 import routes from '@constants/routes';
 import {store} from '@hoc';
 import 'isomorphic-fetch';
+import {PersistGate} from 'redux-persist/es/integration/react';
+import {persistStore} from 'redux-persist';
 
 const history = syncHistoryWithStore(browserHistory, store);
+const persistor = persistStore(store);
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router history={history} routes={routes}/>
+    <PersistGate loading={<div>Loading...</div>} persistor={persistor}>
+      <Router history={history} routes={routes}/>
+    </PersistGate>
   </Provider>,
   document.getElementById('app')
 );
