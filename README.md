@@ -33,3 +33,7 @@ This repo is the minimal and extendable setup to start a new enterprise large-sc
 * `yarn run watch` to start watching for file changes
 * `yarn run build` to make a single build
 * `yarn run prod` to make the production build (minified and uglified)
+
+### License
+
+This project is licensed under the [MIT License](https://github.com/Amin52J/React-Redux-Enterprise/blob/master/LICENSE).
