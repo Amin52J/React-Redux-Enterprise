@@ -1,10 +1,9 @@
 import React from 'react';
 import {Test as TestElement} from '@elements';
 
-const Test = props => (
+const Test = () => (
   <div className="test-component">
     Test Component
-    {props.text}
     <TestElement/>
   </div>
 );
