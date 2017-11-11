@@ -1,7 +1,7 @@
 # React-Redux-Enterprise
 
-[![GitHub stars](https://img.shields.io/github/stars/Amin52J/React-Redux-Enterprise.svg)](https://github.com/Amin52J/React-Redux-Enterprise/stargazers)
-[![GitHub license](https://img.shields.io/github/license/Amin52J/React-Redux-Enterprise.svg)](https://github.com/Amin52J/React-Redux-Enterprise/blob/master/LICENSE)
+[![stars](https://img.shields.io/github/stars/Amin52J/React-Redux-Enterprise.svg?style=for-the-badge)](https://github.com/Amin52J/React-Redux-Enterprise/stargazers)
+[![license](https://img.shields.io/github/license/Amin52J/React-Redux-Enterprise.svg?style=for-the-badge)](https://github.com/Amin52J/React-Redux-Enterprise/blob/master/LICENSE)
 
 A React-Redux boilerplate for enterprise web applications.
 
