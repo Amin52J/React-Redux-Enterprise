@@ -35,7 +35,7 @@ This repo is the minimal and extendable setup to start a new enterprise large-sc
 ### NOTE:
 
 * To run the server you need to install `http-server-spa` as a global module, or you can implement your own server and point it to the public directory.
-* All modules used are the latest versions and are implemented according to their respective latest version docs. 
+* All modules used are the latest versions and are implemented according to their respective latest version docs. (as of Nov 2017) 
 
 ### Scripts
 
