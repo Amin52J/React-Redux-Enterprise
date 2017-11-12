@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Container - Container renders with no problem 1`] = `
+<div
+  className="home-page"
+>
+  Home Page
+  <div
+    className="test-component"
+  >
+    Test Component
+    <div
+      className="test-element"
+    >
+      Test Element
+    </div>
+  </div>
+</div>
+`;

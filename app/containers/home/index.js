@@ -6,7 +6,6 @@ import {reduxConnect} from '@hoc';
 class Home extends React.Component {
   render() {
     const {home: {test}} = this.props;
-    console.log(test);
 
     return (
       <div className="home-page">

@@ -11,7 +11,6 @@ export default function app(state = initialState, action) {
       };
 
     case types.TEST_SUCCESS:
-      console.info(action.payload);
       return {
         ...state,
         loading: false,
@@ -20,7 +19,6 @@ export default function app(state = initialState, action) {
       };
 
     case types.TEST_ERROR:
-      console.log(action.payload);
       return {
         ...state,
         loading: false,

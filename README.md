@@ -10,7 +10,9 @@ A React-Redux boilerplate for enterprise web applications.
 This repo is the minimal and extendable setup to start a new enterprise large-scaled project based on React & Redux & RxJS.
 
 * **babel:** to transpile our ES6 code ES5
+* **enzyme:** as our test util
 * **eslint:** to have linting utility over our code
+* **jest:** as our test framework
 * **postcss:** to have autoprefixer
 * **react:** as our framework
 * **react-redux:** to handle data flow
@@ -30,12 +32,17 @@ This repo is the minimal and extendable setup to start a new enterprise large-sc
 * `yarn start`
 * visit [localhost:8080](http://127.0.0.1:8080)
 
+### NOTE:
+
+To run the server you need to install `http-server-spa` as a global module, or you can implement your own server and point it to the public directory. 
+
 ### Scripts
 
 * `yarn start` to start the server
-* `yarn run watch` to start watching for file changes
-* `yarn run build` to make a single build
-* `yarn run prod` to make the production build (minified and uglified)
+* `yarn watch` to start watching for file changes
+* `yarn build` to make a single build
+* `yarn prod` to make the production build (minified and uglified)
+* `yarn test` to run the tests
 
 ### License
 
