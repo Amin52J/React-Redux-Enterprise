@@ -11,7 +11,6 @@ export default function home(state = initialState, action) {
       };
 
     case types.HOME_TEST_SUCCESS:
-      console.info(action.payload);
       return {
         ...state,
         loading: false,
@@ -19,7 +18,6 @@ export default function home(state = initialState, action) {
       };
 
     case types.HOME_TEST_ERROR:
-      console.log(action.payload);
       return {
         ...state,
         loading: false,

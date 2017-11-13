@@ -1,11 +1,29 @@
 {
   "name": "react-redux-enterprise",
-  "version": "0.0.1",
+  "version": "1.2.0",
   "scripts": {
-    "start": "http-server ./public",
+    "start": "http-server-spa ./public",
     "watch": "webpack --watch",
     "build": "webpack",
-    "prod": "NODE_ENV=production webpack"
+    "prod": "NODE_ENV=production webpack",
+    "test": "jest"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^@actions(.*)$": "<rootDir>/app/actions$1",
+      "^@components(.*)$": "<rootDir>/app/components$1",
+      "^@constants(.*)$": "<rootDir>/app/constants$1",
+      "^@containers(.*)$": "<rootDir>/app/containers$1",
+      "^@elements(.*)$": "<rootDir>/app/elements$1",
+      "^@hoc(.*)$": "<rootDir>/app/hoc$1",
+      "^@reducers(.*)$": "<rootDir>/app/reducers$1",
+      "^@epics(.*)$": "<rootDir>/app/epics$1",
+      "^@root(.*)$": "<rootDir>/app$1"
+    },
+    "setupFiles": [
+      "<rootDir>/shim.js",
+      "<rootDir>/test.setup.js"
+    ]
   },
   "babel": {
     "presets": [
@@ -30,8 +48,9 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-redux": "^5.0.4",
-    "react-router": "~3.2.0",
-    "react-router-redux": "^4.0.8",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.8",
     "redux": "^3.6.0",
     "redux-observable": "^0.17.0",
     "redux-persist": "^5.3.4",
@@ -40,6 +59,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-es2015-destructuring": "^6.23.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
@@ -48,14 +68,18 @@
     "babel-preset-react": "^6.24.1",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.5",
+    "enzyme": "^3.1.1",
+    "enzyme-adapter-react-16": "^1.0.4",
     "eslint": "^4.6.0",
     "eslint-plugin-react": "^7.3.0",
     "extract-text-webpack-plugin": "^3.0.0",
     "isomorphic-fetch": "^2.2.1",
+    "jest": "^21.2.1",
     "json-loader": "^0.5.7",
     "node-sass": "^4.6.0",
     "path": "^0.12.7",
     "postcss-loader": "^2.0.6",
+    "react-test-renderer": "^16.1.0",
     "sass-loader": "^6.0.6",
     "url-loader": "^0.6.2",
     "webpack": "^3.5.5"

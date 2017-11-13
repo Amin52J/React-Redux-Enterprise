@@ -1,6 +1,7 @@
 import React from 'react';
 import * as actions from '@containers/app/action';
-import {reduxConnect, passPropsToChildren} from '@hoc';
+import {reduxConnect} from '@hoc';
+import Routes from '@constants/routes';
 
 class App extends React.Component {
   constructor(props) {
@@ -15,12 +16,11 @@ class App extends React.Component {
 
   render() {
     const {app: {appData}} = this.props;
-    console.log(this.props.app, appData);
 
     return (
       <div className="app">
         App Page
-        {passPropsToChildren(this.props.children)}
+        <Routes/>
       </div>
     );
   }

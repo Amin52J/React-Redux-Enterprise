@@ -20,3 +20,10 @@ export function testError(payload) {
     payload
   };
 }
+
+export function testCancel(payload) {
+  return {
+    type: types.HOME_TEST_CANCEL,
+    payload
+  };
+}

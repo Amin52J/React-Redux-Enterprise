@@ -1,21 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, browserHistory} from 'react-router';
 import {Provider} from 'react-redux';
-import {syncHistoryWithStore} from 'react-router-redux';
-import routes from '@constants/routes';
-import {store} from '@hoc';
+import store, {history} from '@constants/store';
 import 'isomorphic-fetch';
-import {PersistGate} from 'redux-persist/es/integration/react';
+import {PersistGate} from 'redux-persist/lib/integration/react';
 import {persistStore} from 'redux-persist';
+import {ConnectedRouter} from 'react-router-redux';
+import App from '@containers/app/index';
 
-const history = syncHistoryWithStore(browserHistory, store);
 const persistor = persistStore(store);
 
 ReactDOM.render(
   <Provider store={store}>
     <PersistGate persistor={persistor}>
-      <Router history={history} routes={routes}/>
+      <ConnectedRouter history={history}>
+        <App/>
+      </ConnectedRouter>
     </PersistGate>
   </Provider>,
   document.getElementById('app')

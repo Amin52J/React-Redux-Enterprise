@@ -1,11 +1,10 @@
 import React from 'react';
-import {Route} from 'react-router';
-
-import App from '@containers/app/index';
+import {Route, Switch} from 'react-router';
 import Home from '@containers/home/index';
+import {passPropsToChild} from '@hoc';
 
-export default (
-  <Route component={App}>
-    <Route path="/" component={Home}/>
-  </Route>
+export default props => (
+  <Switch>
+    <Route exact path="/" component={passPropsToChild(Home, props)}/>
+  </Switch>
 );
