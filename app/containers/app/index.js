@@ -13,7 +13,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
   }
-  
+
   componentDidMount() {
     if (!this.props.app.appData) {
       this.props.test('amin52j');

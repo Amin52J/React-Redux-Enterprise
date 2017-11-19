@@ -46,6 +46,7 @@ This repo is the minimal and extendable setup to start a new enterprise large-sc
 * `yarn build` to make a single build
 * `yarn prod` to make the production build (minified and uglified)
 * `yarn test` to run the tests
+* `yarn test-update` to test and update the snapshots
 * `yarn doc` to generate the docs
 
 ### License
