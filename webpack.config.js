@@ -14,6 +14,12 @@ const plugins = [
     'process.env': {
       NODE_ENV: JSON.stringify(process.env.NODE_ENV)
     }
+  }),
+  // used to split out our sepcified vendor script
+  new webpack.optimize.CommonsChunkPlugin({
+    name: 'js/vendors.js',
+    minChunks: Infinity,
+    filename: '[name]'
   })
 ];
 
@@ -23,12 +29,14 @@ if (process.env.NODE_ENV === 'production') {
 
 module.exports = {
   entry: {
+    'js/vendors.js': ['react', 'react-dom', 'react-router', 'redux'],
     'js/bundle.js': path.resolve(__dirname, 'app/main.js'),
     'css/style.css': path.resolve(__dirname, 'app/stylesheets/main.scss')
   },
   output: {
     path: path.resolve(__dirname, 'public'),
-    filename: '[name]'
+    filename: '[name]',
+    chunkFilename: '[name].js'
   },
   resolve: {
     alias: {

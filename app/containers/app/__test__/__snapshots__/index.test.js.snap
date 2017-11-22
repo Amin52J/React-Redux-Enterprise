@@ -4,6 +4,18 @@ exports[`App Container - Container renders with no problem 1`] = `
 <div
   className="app"
 >
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    Home
+  </a>
+  <a
+    href="/test"
+    onClick={[Function]}
+  >
+    Test
+  </a>
   App Page
 </div>
 `;

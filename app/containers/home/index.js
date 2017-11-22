@@ -1,6 +1,5 @@
 import React from 'react';
 import * as actions from '@containers/home/action';
-import {Test as TestComponent} from '@components';
 import {reduxConnect} from '@hoc';
 
 /**
@@ -16,7 +15,6 @@ class Home extends React.Component {
     return (
       <div className="home-page">
         Home Page
-        <TestComponent/>
       </div>
     );
   }
