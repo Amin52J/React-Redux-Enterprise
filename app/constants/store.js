@@ -1,9 +1,8 @@
-import {routerReducer} from 'react-router-redux';
+import {routerReducer, routerMiddleware} from 'react-router-redux';
 import {createStore, applyMiddleware} from 'redux';
 import {createEpicMiddleware} from 'redux-observable';
 import {persistCombineReducers} from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import {routerMiddleware} from 'react-router-redux';
 import createHistory from 'history/createBrowserHistory';
 
 // rxjs observables

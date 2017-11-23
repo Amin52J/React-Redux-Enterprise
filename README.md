@@ -49,6 +49,10 @@ This repo is the minimal and extendable setup to start a new enterprise large-sc
 * `yarn test-update` to test and update the snapshots
 * `yarn doc` to generate the docs
 
+### Read On
+
+To read more about this project and to get familiar with the structure and find out the logic behind it, check out the articles on [Medium](https://medium.com/@a.jafari.90/how-to-start-an-enterprise-project-with-react-and-redux-563d73b61ef4), [Quora](https://amin52j.quora.com/How-to-start-an-enterprise-project-with-React-and-Redux) or [LinkedIn](https://www.linkedin.com/pulse/how-start-enterprise-project-react-andredux-amin-jafari/)
+
 ### License
 
 This project is licensed under the [MIT License](https://github.com/Amin52J/React-Redux-Enterprise/blob/master/LICENSE).

@@ -29,7 +29,7 @@ if (process.env.NODE_ENV === 'production') {
 
 module.exports = {
   entry: {
-    'js/vendors.js': ['react', 'react-dom', 'react-router', 'redux'],
+    'js/vendors.js': ['react', 'react-dom', 'isomorphic-fetch'],
     'js/bundle.js': path.resolve(__dirname, 'app/main.js'),
     'css/style.css': path.resolve(__dirname, 'app/stylesheets/main.scss')
   },
