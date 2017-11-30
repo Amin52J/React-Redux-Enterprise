@@ -1,7 +1,7 @@
 // Props Proxy HOC
 
-import {connect} from 'react-redux';
-import {withRouter} from 'react-router-dom';
+import connect from 'react-redux/lib/connect/connect';
+import withRouter from 'react-router-dom/withRouter';
 
 /**
  * hoc/reduxConnect : maps state to props function

@@ -6,7 +6,7 @@ const webpack = require('webpack');
 
 const plugins = [
   new CopyWebpackPlugin([{from: 'view'}]),
-  new ExtractTextPlugin('css/style.css'),
+  new ExtractTextPlugin('[name]'),
   new webpack.LoaderOptionsPlugin({
     minimize: true
   }),
@@ -29,7 +29,7 @@ if (process.env.NODE_ENV === 'production') {
 
 module.exports = {
   entry: {
-    'js/vendors.js': ['react', 'react-dom', 'isomorphic-fetch'],
+    'js/vendors.js': ['react', 'react-dom', path.resolve('app/constants/actionTypes.js'), path.resolve('app/constants/common.js')],
     'js/bundle.js': path.resolve(__dirname, 'app/main.js'),
     'css/style.css': path.resolve(__dirname, 'app/stylesheets/main.scss')
   },

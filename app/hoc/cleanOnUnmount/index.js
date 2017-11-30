@@ -1,8 +1,8 @@
 // Inheritance Inversion HOC
 
 import * as hocActions from '@hoc/cleanOnUnmount/action';
-import {connect} from 'react-redux';
-import {withRouter} from 'react-router-dom';
+import connect from 'react-redux/lib/connect/connect';
+import withRouter from 'react-router-dom/withRouter';
 
 /**
  * hoc/cleanOnUnmount : maps state to props function

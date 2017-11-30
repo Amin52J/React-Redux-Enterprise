@@ -1,7 +1,9 @@
-import {routerReducer, routerMiddleware} from 'react-router-redux';
-import {createStore, applyMiddleware} from 'redux';
-import {createEpicMiddleware} from 'redux-observable';
-import {persistCombineReducers} from 'redux-persist';
+import {routerReducer} from 'react-router-redux/reducer';
+import {routerMiddleware} from 'react-router-redux/middleware';
+import createStore from 'redux/lib/createStore';
+import applyMiddleware from 'redux/lib/applyMiddleware';
+import {createEpicMiddleware} from 'redux-observable/lib/cjs/createEpicMiddleware';
+import persistCombineReducers from 'redux-persist/lib/persistCombineReducers';
 import storage from 'redux-persist/lib/storage';
 import createHistory from 'history/createBrowserHistory';
 

@@ -1,6 +1,6 @@
 {
   "name": "react-redux-enterprise",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "scripts": {
     "start": "http-server-spa ./public",
     "watch": "webpack --watch",
@@ -10,6 +10,7 @@
     "test-update": "jest --updateSnapshot",
     "doc": "documentation build app/** -f html -o docs"
   },
+  "browserslist":["> 5%"],
   "jest": {
     "moduleNameMapper": {
       "^@actions(.*)$": "<rootDir>/app/actions$1",
@@ -31,14 +32,7 @@
     "presets": [
       "react",
       "es2015",
-      [
-        "env",
-        {
-          "targets": {
-            "node": "current"
-          }
-        }
-      ]
+      ["env"]
     ],
     "plugins": [
       "transform-es2015-destructuring",

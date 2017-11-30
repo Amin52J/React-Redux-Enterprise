@@ -1,5 +1,6 @@
 import React from 'react';
-import {Route, Switch} from 'react-router';
+import Route from 'react-router/Route';
+import Switch from 'react-router/Switch';
 import {asyncComponent} from '@hoc';
 
 const Home = asyncComponent(() => System.import(/* webpackChunkName: "js/chunks/home" */'@containers/home').then(module => module.default));

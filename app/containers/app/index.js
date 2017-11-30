@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import Link from 'react-router-dom/Link';
 import * as actions from '@containers/app/action';
 import {reduxConnect} from '@hoc';
 import Routes from '@constants/routes';
