@@ -44,7 +44,7 @@ if (process.env.NODE_ENV === 'production') {
       join_vars: true
     },
     output: {
-      comments: false,
+      comments: false
     },
     exclude: [/\.min\.js$/gi]
   }));
@@ -52,7 +52,7 @@ if (process.env.NODE_ENV === 'production') {
 
 module.exports = {
   entry: {
-    'js/vendors.js': ['react', 'react-dom', 'prop-types', path.resolve('app/constants/actionTypes.js'), path.resolve('app/constants/common.js')],
+    'js/vendors.js': ['react', 'react-dom', 'prop-types', 'redux-persist/lib/persistReducer', 'redux-persist/lib/storage', path.resolve('app/constants/actionTypes.js'), path.resolve('app/constants/common.js')],
     'js/bundle.js': path.resolve(__dirname, 'app/main.js'),
     'css/style.css': path.resolve(__dirname, 'app/stylesheets/main.scss')
   },

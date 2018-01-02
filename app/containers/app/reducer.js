@@ -1,4 +1,12 @@
 import * as types from '@constants/actionTypes';
+import persistReducer from 'redux-persist/lib/persistReducer';
+import storage from 'redux-persist/lib/storage';
+
+const persistConfig = {
+  key: 'app',
+  storage,
+  whitelist: [/* keys to be persisted */]
+};
 
 const initialState = {};
 
@@ -8,7 +16,7 @@ const initialState = {};
  * @param {Object} action the redux action instance
  * @returns {Object} returns the new state
  **/
-export default function app(state = initialState, action) {
+function app(state = initialState, action) {
   switch (action.type) {
     case types.TEST:
       return {
@@ -35,3 +43,5 @@ export default function app(state = initialState, action) {
       return state;
   }
 }
+
+export default persistReducer(persistConfig, app);

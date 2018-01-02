@@ -1,6 +1,6 @@
 {
   "name": "react-redux-enterprise",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "scripts": {
     "start": "http-server-spa ./public",
     "watch": "webpack --watch",

@@ -3,8 +3,7 @@ import routerMiddleware from 'react-router-redux/middleware';
 import createStore from 'redux/lib/createStore';
 import applyMiddleware from 'redux/lib/applyMiddleware';
 import {createEpicMiddleware} from 'redux-observable/lib/cjs/createEpicMiddleware';
-import persistCombineReducers from 'redux-persist/lib/persistCombineReducers';
-import storage from 'redux-persist/lib/storage';
+import combineReducers from 'redux/lib/combineReducers';
 import createHistory from 'history/createBrowserHistory';
 
 // rxjs observables
@@ -25,12 +24,6 @@ import 'rxjs/add/operator/takeUntil';
 
 export const history = createHistory();
 
-// the persist config
-const persistConfig = {
-  key: 'root',
-  storage
-};
-
 // the epics middleware
 const epicMiddleware = createEpicMiddleware(epics, {
   dependencies: {
@@ -40,7 +33,7 @@ const epicMiddleware = createEpicMiddleware(epics, {
 });
 
 // the reducers
-const combinedReducers = persistCombineReducers(persistConfig, {
+const combinedReducers = combineReducers({
   ...reducers,
   routing: routerReducer
 });
