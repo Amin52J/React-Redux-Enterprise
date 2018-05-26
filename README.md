@@ -41,13 +41,13 @@ This repo is the minimal and extendable setup to start a new enterprise large-sc
 
 ### Scripts
 
-* `yarn start` to start the server
-* `yarn watch` to start watching for file changes
-* `yarn build` to make a single build
-* `yarn prod` to make the production build (minified and uglified)
-* `yarn test` to run the tests
-* `yarn test-update` to test and update the snapshots
+* `yarn build` to make a single production build
+* `yarn dev` to make a single development build
 * `yarn docs` to generate the docs
+* `yarn lint` to run the lint check
+* `yarn start` to start the server
+* `yarn test` to run the tests
+* `yarn watch` to start watching for file changes
 
 ### Read On
 
