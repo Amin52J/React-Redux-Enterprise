@@ -1,6 +1,9 @@
 import React from 'react';
 import * as actions from '@containers/home/action';
-import {reduxConnect} from '@hoc';
+import { reduxConnect } from '@hoc';
+import TestComponent from '@components/test/index';
+
+import(/* webpackChunkName: "/css/chunks/home" */ './_index.scss');
 
 /**
  * containers/home : Home container
@@ -10,11 +13,12 @@ import {reduxConnect} from '@hoc';
  **/
 class Home extends React.Component {
   render() {
-    const {home: {test}} = this.props;
+    const { home: { test } } = this.props;
 
     return (
       <div className="home-page">
         Home Page
+        <TestComponent />
       </div>
     );
   }

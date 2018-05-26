@@ -1,5 +1,7 @@
 import React from 'react';
-import {Test as TestElement} from '@elements';
+import { Test as TestElement } from '@elements';
+
+import(/* webpackChunkName: "/css/chunks/components/test-component" */ './_index.scss');
 
 /**
  * components/test : Test component
@@ -8,7 +10,7 @@ import {Test as TestElement} from '@elements';
 const Test = () => (
   <div className="test-component">
     Test Component
-    <TestElement/>
+    <TestElement />
   </div>
 );
 

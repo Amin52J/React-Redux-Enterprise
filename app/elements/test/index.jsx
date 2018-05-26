@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './_index.scss';
+
 /**
  * elements/test : Test elements
  * @returns {HTMLElement} returns test element's node

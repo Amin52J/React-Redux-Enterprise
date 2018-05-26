@@ -1,14 +1,11 @@
-import {routerReducer} from 'react-router-redux/reducer';
-import routerMiddleware from 'react-router-redux/middleware';
-import createStore from 'redux/lib/createStore';
-import applyMiddleware from 'redux/lib/applyMiddleware';
-import {createEpicMiddleware} from 'redux-observable/lib/cjs/createEpicMiddleware';
-import combineReducers from 'redux/lib/combineReducers';
+import { routerMiddleware, routerReducer } from 'react-router-redux';
+import { applyMiddleware, createStore, combineReducers } from 'redux';
+import { createEpicMiddleware } from 'redux-observable/lib/cjs/createEpicMiddleware';
 import createHistory from 'history/createBrowserHistory';
 
 // rxjs observables
-import {ajax} from 'rxjs/observable/dom/ajax';
-import {of} from 'rxjs/observable/of';
+import { ajax } from 'rxjs/observable/dom/ajax';
+import { of } from 'rxjs/observable/of';
 // ----------------
 
 import hocReducer from '@hoc/cleanOnUnmount/reducer';

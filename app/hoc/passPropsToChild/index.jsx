@@ -7,5 +7,5 @@ import React from 'react';
  * @returns {Function} a factory returning the component with assigned properties
  **/
 export default function (Component, props) {
-  return () => <Component {...props}/>;
+  return () => <Component {...props} />;
 }

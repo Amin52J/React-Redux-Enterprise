@@ -5,7 +5,7 @@ import storage from 'redux-persist/lib/storage';
 const persistConfig = {
   key: 'app',
   storage,
-  whitelist: [/* keys to be persisted */]
+  whitelist: [ /* keys to be persisted */ ]
 };
 
 const initialState = {};

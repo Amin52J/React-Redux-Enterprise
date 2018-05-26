@@ -37,7 +37,7 @@ This repo is the minimal and extendable setup to start a new enterprise large-sc
 
 * To run the server you need to install `http-server-spa` as a global module, or you can implement your own server and point it to the public directory.
 * You need to install `documentation` as a global module.
-* All modules used are the latest versions and are implemented according to their respective latest version docs. (as of Nov 2017) 
+* All modules used are the latest versions and are implemented according to their respective latest version docs. (as of May 2018)
 
 ### Scripts
 
@@ -47,7 +47,7 @@ This repo is the minimal and extendable setup to start a new enterprise large-sc
 * `yarn prod` to make the production build (minified and uglified)
 * `yarn test` to run the tests
 * `yarn test-update` to test and update the snapshots
-* `yarn doc` to generate the docs
+* `yarn docs` to generate the docs
 
 ### Read On
 

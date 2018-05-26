@@ -10,20 +10,20 @@ export default function asyncComponent(getComponent) {
     constructor(props) {
       super(props);
       this.Component = null;
-      this.state = {Component: AsyncComponent.Component};
+      this.state = { Component: AsyncComponent.Component };
     }
 
     componentWillMount() {
       if (!this.state.Component) {
         getComponent().then(Component => {
           AsyncComponent.Component = Component;
-          this.setState({Component});
+          this.setState({ Component });
         });
       }
     }
 
     render() {
-      const {Component} = this.state;
+      const { Component } = this.state;
       if (Component) {
         return <Component {...this.props} />;
       }

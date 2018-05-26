@@ -1,8 +1,10 @@
 import React from 'react';
 import Link from 'react-router-dom/Link';
 import * as actions from '@containers/app/action';
-import {reduxConnect} from '@hoc';
+import { reduxConnect } from '@hoc';
 import Routes from '@constants/routes';
+
+import(/* webpackChunkName: "/css/chunks/app" */ './_index.scss');
 
 /**
  * containers/app : App container
@@ -22,14 +24,14 @@ class App extends React.Component {
   }
 
   render() {
-    const {app: {appData}} = this.props;
+    const { app: { appData } } = this.props;
 
     return (
       <div className="app">
         <Link to="/">Home</Link>
         <Link to="/test">Test</Link>
         App Page
-        <Routes/>
+        <Routes />
       </div>
     );
   }

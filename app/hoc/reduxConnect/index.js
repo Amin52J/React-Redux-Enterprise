@@ -8,7 +8,7 @@ import withRouter from 'react-router-dom/withRouter';
  * @param {Object} state the state of the container
  * @returns {Object} state
  **/
-function mapStateToProps (state) {
+function mapStateToProps(state) {
   return state;
 }
 
