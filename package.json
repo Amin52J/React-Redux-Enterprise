@@ -1,6 +1,6 @@
 {
   "name": "react-redux-enterprise",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "author": "Amin Jafari",
   "description": "A React-Redux boilerplate for enterprise web applications",
   "main": "app/main.jsx",
