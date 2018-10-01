@@ -1,0 +1,1950 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "app/.external-ecmascript.js",
+    "static": true,
+    "longname": "app/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "app/actions/index.js",
+    "content": "// add actions of the newly created container here.\nimport * as home from '@containers/home/action';\nimport * as app from '@containers/app/action';\n\nexport default { home, app }; // exports all the actions.\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/actions/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "file",
+    "name": "app/components/index.js",
+    "content": "// add all new components here to export\nexport { default, default as Test } from '@components/test/index';\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/components/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "app/components/test/assets/TestComponent.js",
+    "content": "import styled from 'styled-components';\n\nconst TestComponent = styled.div`\n  color: green;\n`;\n\nexport default TestComponent;\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/components/test/assets/TestComponent.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "TestComponent",
+    "memberof": "app/components/test/assets/TestComponent.js",
+    "static": true,
+    "longname": "app/components/test/assets/TestComponent.js~TestComponent",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/components/test/assets/TestComponent.js",
+    "importStyle": "TestComponent",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "app/constants/actionTypes.js",
+    "content": "// TEST\nexport const TEST = 'TEST';\nexport const TEST_ERROR = 'TEST_ERROR';\nexport const TEST_SUCCESS = 'TEST_SUCCESS';\nexport const TEST_CANCEL = 'TEST_CANCEL';\n// -------------\n\n// HOME_TEST\nexport const HOME_TEST = 'HOME_TEST';\nexport const HOME_TEST_ERROR = 'HOME_TEST_ERROR';\nexport const HOME_TEST_SUCCESS = 'HOME_TEST_SUCCESS';\nexport const HOME_TEST_CANCEL = 'HOME_TEST_CANCEL';\n// --------------\n\nexport const RESET = 'RESET';\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/constants/actionTypes.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "TEST",
+    "memberof": "app/constants/actionTypes.js",
+    "static": true,
+    "longname": "app/constants/actionTypes.js~TEST",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/constants/actionTypes.js",
+    "importStyle": "{TEST}",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "TEST_ERROR",
+    "memberof": "app/constants/actionTypes.js",
+    "static": true,
+    "longname": "app/constants/actionTypes.js~TEST_ERROR",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/constants/actionTypes.js",
+    "importStyle": "{TEST_ERROR}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "TEST_SUCCESS",
+    "memberof": "app/constants/actionTypes.js",
+    "static": true,
+    "longname": "app/constants/actionTypes.js~TEST_SUCCESS",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/constants/actionTypes.js",
+    "importStyle": "{TEST_SUCCESS}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "variable",
+    "name": "TEST_CANCEL",
+    "memberof": "app/constants/actionTypes.js",
+    "static": true,
+    "longname": "app/constants/actionTypes.js~TEST_CANCEL",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/constants/actionTypes.js",
+    "importStyle": "{TEST_CANCEL}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "variable",
+    "name": "HOME_TEST",
+    "memberof": "app/constants/actionTypes.js",
+    "static": true,
+    "longname": "app/constants/actionTypes.js~HOME_TEST",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/constants/actionTypes.js",
+    "importStyle": "{HOME_TEST}",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "HOME_TEST_ERROR",
+    "memberof": "app/constants/actionTypes.js",
+    "static": true,
+    "longname": "app/constants/actionTypes.js~HOME_TEST_ERROR",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/constants/actionTypes.js",
+    "importStyle": "{HOME_TEST_ERROR}",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "variable",
+    "name": "HOME_TEST_SUCCESS",
+    "memberof": "app/constants/actionTypes.js",
+    "static": true,
+    "longname": "app/constants/actionTypes.js~HOME_TEST_SUCCESS",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/constants/actionTypes.js",
+    "importStyle": "{HOME_TEST_SUCCESS}",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "variable",
+    "name": "HOME_TEST_CANCEL",
+    "memberof": "app/constants/actionTypes.js",
+    "static": true,
+    "longname": "app/constants/actionTypes.js~HOME_TEST_CANCEL",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/constants/actionTypes.js",
+    "importStyle": "{HOME_TEST_CANCEL}",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "variable",
+    "name": "RESET",
+    "memberof": "app/constants/actionTypes.js",
+    "static": true,
+    "longname": "app/constants/actionTypes.js~RESET",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/constants/actionTypes.js",
+    "importStyle": "{RESET}",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "file",
+    "name": "app/constants/common.js",
+    "content": "// write all common functionalities and variables here\nconst Common = {};\n\nexport default Common;\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/constants/common.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 63,
+    "kind": "variable",
+    "name": "Common",
+    "memberof": "app/constants/common.js",
+    "static": true,
+    "longname": "app/constants/common.js~Common",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/constants/common.js",
+    "importStyle": "Common",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "file",
+    "name": "app/constants/globalStyles.js",
+    "content": "export default `\n  html {\n    body {\n      overflow-x: hidden;\n    }\n  }\n`;\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/constants/globalStyles.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 65,
+    "kind": "file",
+    "name": "app/constants/styleReset.js",
+    "content": "export default `\n  * {\n    box-sizing: border-box;\n  }\n  \n  html, body, div, span, applet, object, iframe,\n  h1, h2, h3, h4, h5, h6, p, blockquote, pre,\n  a, abbr, acronym, address, big, cite, code,\n  del, dfn, em, img, ins, kbd, q, s, samp,\n  small, strike, strong, sub, sup, tt, var,\n  b, u, i, center,\n  dl, dt, dd, ol, ul, li,\n  fieldset, form, label, legend,\n  table, caption, tbody, tfoot, thead, tr, th, td,\n  article, aside, canvas, details, embed,\n  figure, figcaption, footer, header, hgroup,\n  menu, nav, output, ruby, section, summary,\n  time, mark, audio, video {\n    margin: 0;\n    padding: 0;\n    border: 0;\n    vertical-align: baseline;\n  }\n  \n  /* HTML5 display-role reset for older browsers */\n  article, aside, details, figcaption, figure,\n  footer, header, hgroup, menu, nav, section {\n    display: block;\n  }\n  \n  body {\n    line-height: 1;\n  }\n  \n  ol, ul {\n    list-style: none;\n  }\n  \n  blockquote, q {\n    quotes: none;\n  }\n  \n  blockquote:before, blockquote:after,\n  q:before, q:after {\n    content: '';\n    content: none;\n  }\n  \n  table {\n    border-collapse: collapse;\n    border-spacing: 0;\n  }\n`;\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/constants/styleReset.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "app/containers/app/action.js",
+    "content": "import * as types from '@constants/actionTypes';\n\n/**\n * containers/app/action.js : TEST action factory\n * @param {any} payload the payload of the action\n * @returns {Object} the test action object\n **/\nexport function test(payload) {\n  return {\n    type: types.TEST,\n    payload,\n  };\n}\n\n/**\n * containers/app/action.js : TEST_SUCCESS action factory\n * @param {any} payload the payload of the action\n * @returns {Object} the testSuccess action object\n **/\nexport function testSuccess(payload) {\n  return {\n    type: types.TEST_SUCCESS,\n    payload,\n  };\n}\n\n/**\n * containers/app/action.js : TEST_ERROR action factory\n * @param {any} payload the payload of the action\n * @returns {Object} the testError action object\n **/\nexport function testError(payload) {\n  return {\n    type: types.TEST_ERROR,\n    payload,\n  };\n}\n\n/**\n * containers/app/action.js : TEST_CANCEL action factory\n * @param {any} payload the payload of the action\n * @returns {Object} the testCancel action object\n **/\nexport function testCancel(payload) {\n  return {\n    type: types.TEST_CANCEL,\n    payload,\n  };\n}\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/containers/app/action.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "function",
+    "name": "test",
+    "memberof": "app/containers/app/action.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/containers/app/action.js~test",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/containers/app/action.js",
+    "importStyle": "{test}",
+    "description": "containers/app/action.js : TEST action factory",
+    "lineNumber": 8,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Object} the test action object"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": "the payload of the action"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "the test action object"
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "function",
+    "name": "testSuccess",
+    "memberof": "app/containers/app/action.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/containers/app/action.js~testSuccess",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/containers/app/action.js",
+    "importStyle": "{testSuccess}",
+    "description": "containers/app/action.js : TEST_SUCCESS action factory",
+    "lineNumber": 20,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Object} the testSuccess action object"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": "the payload of the action"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "the testSuccess action object"
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "function",
+    "name": "testError",
+    "memberof": "app/containers/app/action.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/containers/app/action.js~testError",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/containers/app/action.js",
+    "importStyle": "{testError}",
+    "description": "containers/app/action.js : TEST_ERROR action factory",
+    "lineNumber": 32,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Object} the testError action object"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": "the payload of the action"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "the testError action object"
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "function",
+    "name": "testCancel",
+    "memberof": "app/containers/app/action.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/containers/app/action.js~testCancel",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/containers/app/action.js",
+    "importStyle": "{testCancel}",
+    "description": "containers/app/action.js : TEST_CANCEL action factory",
+    "lineNumber": 44,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Object} the testCancel action object"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": "the payload of the action"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "the testCancel action object"
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "file",
+    "name": "app/containers/app/assets/AppContainer.js",
+    "content": "import styled from 'styled-components';\n\nconst AppContainer = styled.div``;\n\nexport default AppContainer;\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/containers/app/assets/AppContainer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 72,
+    "kind": "variable",
+    "name": "AppContainer",
+    "memberof": "app/containers/app/assets/AppContainer.js",
+    "static": true,
+    "longname": "app/containers/app/assets/AppContainer.js~AppContainer",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/containers/app/assets/AppContainer.js",
+    "importStyle": "AppContainer",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "file",
+    "name": "app/containers/app/epic.js",
+    "content": "import * as types from '@constants/actionTypes';\nimport * as actions from '@containers/app/action';\n\n/**\n * containers/app/epic.js : test epic\n * @param {Object} action$ stream of actions\n * @param {Object} store the main store to be used\n * @param {Object} dependencies the dependencies to be injected inside the epic\n *   @param {Function} dependencies.getJSON the rxjs getJSON function\n *   @param {Function} dependencies.of the rxjs of function\n * @returns {Array} an array of actions to be dispatched\n **/\nexport const test = (action$, store, { getJSON, of }) =>\n  action$.ofType(types.TEST).mergeMap(action =>\n    getJSON(`https://api.github.com/users/${action.payload}`)\n      .map(response => actions.testSuccess(response))\n      .takeUntil(action$.ofType(types.TEST_CANCEL))\n      .catch(error => of(actions.testError(error))),\n  );\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/containers/app/epic.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 74,
+    "kind": "function",
+    "name": "test",
+    "memberof": "app/containers/app/epic.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/containers/app/epic.js~test",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/containers/app/epic.js",
+    "importStyle": "{test}",
+    "description": "containers/app/epic.js : test epic",
+    "lineNumber": 13,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Array} an array of actions to be dispatched"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "action$",
+        "description": "stream of actions"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "store",
+        "description": "the main store to be used"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "dependencies",
+        "description": "the dependencies to be injected inside the epic"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "dependencies.getJSON",
+        "description": "the rxjs getJSON function"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "dependencies.of",
+        "description": "the rxjs of function"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Array"
+      ],
+      "spread": false,
+      "description": "an array of actions to be dispatched"
+    }
+  },
+  {
+    "__docId__": 75,
+    "kind": "file",
+    "name": "app/containers/home/action.js",
+    "content": "import * as types from '@constants/actionTypes';\n\n/**\n * containers/home/action.js : HOME_TEST action factory\n * @param {any} payload the payload of the action\n * @returns {Object} the test action object\n **/\nexport function test(payload) {\n  return {\n    type: types.HOME_TEST,\n    payload,\n  };\n}\n\n/**\n * containers/home/action.js : HOME_TEST_SUCCESS action factory\n * @param {any} payload the payload of the action\n * @returns {Object} the testSuccess action object\n **/\nexport function testSuccess(payload) {\n  return {\n    type: types.HOME_TEST_SUCCESS,\n    payload,\n  };\n}\n\n/**\n * containers/home/action.js : HOME_TEST_ERROR action factory\n * @param {any} payload the payload of the action\n * @returns {Object} the testError action object\n **/\nexport function testError(payload) {\n  return {\n    type: types.HOME_TEST_ERROR,\n    payload,\n  };\n}\n\n/**\n * containers/home/action.js : HOME_TEST_CANCEL action factory\n * @param {any} payload the payload of the action\n * @returns {Object} the testCancel action object\n **/\nexport function testCancel(payload) {\n  return {\n    type: types.HOME_TEST_CANCEL,\n    payload,\n  };\n}\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/containers/home/action.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 76,
+    "kind": "function",
+    "name": "test",
+    "memberof": "app/containers/home/action.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/containers/home/action.js~test",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/containers/home/action.js",
+    "importStyle": "{test}",
+    "description": "containers/home/action.js : HOME_TEST action factory",
+    "lineNumber": 8,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Object} the test action object"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": "the payload of the action"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "the test action object"
+    }
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "testSuccess",
+    "memberof": "app/containers/home/action.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/containers/home/action.js~testSuccess",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/containers/home/action.js",
+    "importStyle": "{testSuccess}",
+    "description": "containers/home/action.js : HOME_TEST_SUCCESS action factory",
+    "lineNumber": 20,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Object} the testSuccess action object"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": "the payload of the action"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "the testSuccess action object"
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "function",
+    "name": "testError",
+    "memberof": "app/containers/home/action.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/containers/home/action.js~testError",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/containers/home/action.js",
+    "importStyle": "{testError}",
+    "description": "containers/home/action.js : HOME_TEST_ERROR action factory",
+    "lineNumber": 32,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Object} the testError action object"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": "the payload of the action"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "the testError action object"
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "testCancel",
+    "memberof": "app/containers/home/action.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/containers/home/action.js~testCancel",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/containers/home/action.js",
+    "importStyle": "{testCancel}",
+    "description": "containers/home/action.js : HOME_TEST_CANCEL action factory",
+    "lineNumber": 44,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Object} the testCancel action object"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": "the payload of the action"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "the testCancel action object"
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "file",
+    "name": "app/containers/home/assets/HomeContainer.js",
+    "content": "import styled from 'styled-components';\n\nconst HomeContainer = styled.div`\n  color: red;\n`;\n\nexport default HomeContainer;\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/containers/home/assets/HomeContainer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 81,
+    "kind": "variable",
+    "name": "HomeContainer",
+    "memberof": "app/containers/home/assets/HomeContainer.js",
+    "static": true,
+    "longname": "app/containers/home/assets/HomeContainer.js~HomeContainer",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/containers/home/assets/HomeContainer.js",
+    "importStyle": "HomeContainer",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "name": "app/containers/home/epic.js",
+    "content": "import * as types from '@constants/actionTypes';\nimport * as actions from '@containers/home/action';\n\n/**\n * containers/home/epic.js : test epic\n * @param {Object} action$ stream of actions\n * @param {Object} store the main store to be used\n * @param {Object} dependencies the dependencies to be injected inside the epic\n *   @param {Function} dependencies.getJSON the rxjs getJSON function\n *   @param {Function} dependencies.of the rxjs of function\n * @returns {Array} an array of actions to be dispatched\n **/\nexport const test = (action$, store, { getJSON, of }) =>\n  action$.ofType(types.HOME_TEST).mergeMap(action =>\n    getJSON(`https://api.github.com/users/${action.payload}`)\n      .map(response => actions.testSuccess(response))\n      .takeUntil(action$.ofType(types.HOME_TEST_CANCEL))\n      .catch(error => of(actions.testError(error))),\n  );\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/containers/home/epic.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 83,
+    "kind": "function",
+    "name": "test",
+    "memberof": "app/containers/home/epic.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/containers/home/epic.js~test",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/containers/home/epic.js",
+    "importStyle": "{test}",
+    "description": "containers/home/epic.js : test epic",
+    "lineNumber": 13,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Array} an array of actions to be dispatched"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "action$",
+        "description": "stream of actions"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "store",
+        "description": "the main store to be used"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "dependencies",
+        "description": "the dependencies to be injected inside the epic"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "dependencies.getJSON",
+        "description": "the rxjs getJSON function"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "dependencies.of",
+        "description": "the rxjs of function"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Array"
+      ],
+      "spread": false,
+      "description": "an array of actions to be dispatched"
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "file",
+    "name": "app/elements/index.js",
+    "content": "// add all new elements here to export\nexport { default, default as Test } from '@elements/test/index';\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/elements/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 85,
+    "kind": "file",
+    "name": "app/elements/test/assets/TestElement.js",
+    "content": "import styled from 'styled-components';\n\nconst TestElement = styled.div`\n  color: blue;\n`;\n\nexport default TestElement;\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/elements/test/assets/TestElement.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 86,
+    "kind": "variable",
+    "name": "TestElement",
+    "memberof": "app/elements/test/assets/TestElement.js",
+    "static": true,
+    "longname": "app/elements/test/assets/TestElement.js~TestElement",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/elements/test/assets/TestElement.js",
+    "importStyle": "TestElement",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "file",
+    "name": "app/epics/index.js",
+    "content": "// add all new epics here to combine and export\nimport { combineEpics } from 'redux-observable/lib/cjs/combineEpics';\nimport { test } from '@containers/app/epic';\nimport { test as homeTest } from '@containers/home/epic';\n\nexport default combineEpics(test, homeTest);\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/epics/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "app/hoc/cleanOnUnmount/action.js",
+    "content": "import * as types from '@constants/actionTypes';\n\n/**\n * hoc/cleanOnUnmount/action.js : RESET action factory\n * @returns {Object} the reset action object\n **/\nexport function reset() {\n  return {\n    type: types.RESET,\n  };\n}\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/hoc/cleanOnUnmount/action.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "reset",
+    "memberof": "app/hoc/cleanOnUnmount/action.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/hoc/cleanOnUnmount/action.js~reset",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/hoc/cleanOnUnmount/action.js",
+    "importStyle": "{reset}",
+    "description": "hoc/cleanOnUnmount/action.js : RESET action factory",
+    "lineNumber": 7,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Object} the reset action object"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "the reset action object"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 90,
+    "kind": "file",
+    "name": "app/hoc/cleanOnUnmount/index.js",
+    "content": "// Inheritance Inversion HOC\n\nimport * as hocActions from '@hoc/cleanOnUnmount/action';\nimport connect from 'react-redux/lib/connect/connect';\nimport withRouter from 'react-router-dom/withRouter';\n\n/**\n * hoc/cleanOnUnmount : maps state to props function\n * @param {Object} state the state of the container\n * @returns {Object} state\n **/\nfunction mapStateToProps(state) {\n  return state;\n}\n\n/**\n * hoc/cleanOnUnmount : connects state and actions to the component\n * @param {Object} WrappedComponent the react component that needs to be connected to the actions and state\n * @param {Object} actions the action factories of the component\n * @param {Object} state the state factory function\n * @returns {class} returns a react component\n **/\nfunction reduxConnect(WrappedComponent, actions, state = mapStateToProps) {\n  return connect(\n    state,\n    actions,\n  )(WrappedComponent);\n}\n\n/**\n * hoc/cleanOnUnmount : creates a wrapper over the component and dispatches the reset action on componentWillUnmount\n * @param {Object} WrappedComponent the react component that needs to be connected to the actions and state\n * @param {Object} actions the action factories of the component\n * @param {Object} state the state factory function\n * @returns {class} returns the wrapped react component\n **/\nexport default function(WrappedComponent, actions, state) {\n  const Component = reduxConnect(WrappedComponent, actions, state);\n\n  class Enhancer extends Component {\n    componentWillUnmount() {\n      this.props.reset();\n      if (super.componentWillUnmount) {\n        super.componentWillUnmount();\n      }\n    }\n  }\n\n  return withRouter(reduxConnect(Enhancer, hocActions));\n}\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/hoc/cleanOnUnmount/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "mapStateToProps",
+    "memberof": "app/hoc/cleanOnUnmount/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/hoc/cleanOnUnmount/index.js~mapStateToProps",
+    "access": "public",
+    "export": false,
+    "importPath": "react-redux-enterprise/app/hoc/cleanOnUnmount/index.js",
+    "importStyle": null,
+    "description": "hoc/cleanOnUnmount : maps state to props function",
+    "lineNumber": 12,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Object} state"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "state",
+        "description": "the state of the container"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "state"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 92,
+    "kind": "function",
+    "name": "reduxConnect",
+    "memberof": "app/hoc/cleanOnUnmount/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/hoc/cleanOnUnmount/index.js~reduxConnect",
+    "access": "public",
+    "export": false,
+    "importPath": "react-redux-enterprise/app/hoc/cleanOnUnmount/index.js",
+    "importStyle": null,
+    "description": "hoc/cleanOnUnmount : connects state and actions to the component",
+    "lineNumber": 23,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{class} returns a react component"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "WrappedComponent",
+        "description": "the react component that needs to be connected to the actions and state"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "actions",
+        "description": "the action factories of the component"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "state",
+        "description": "the state factory function"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "class"
+      ],
+      "spread": false,
+      "description": "returns a react component"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "index",
+    "memberof": "app/hoc/cleanOnUnmount/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/hoc/cleanOnUnmount/index.js~index",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/hoc/cleanOnUnmount/index.js",
+    "importStyle": "index",
+    "description": "hoc/cleanOnUnmount : creates a wrapper over the component and dispatches the reset action on componentWillUnmount",
+    "lineNumber": 37,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{class} returns the wrapped react component"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "WrappedComponent",
+        "description": "the react component that needs to be connected to the actions and state"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "actions",
+        "description": "the action factories of the component"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "state",
+        "description": "the state factory function"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "class"
+      ],
+      "spread": false,
+      "description": "returns the wrapped react component"
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "file",
+    "name": "app/hoc/cleanOnUnmount/reducer.js",
+    "content": "import * as types from '@constants/actionTypes';\n\n/**\n * hoc/cleanOnUnmount/reducer.js : the cleanOnUnmount HOC reducer factory\n * @param {Function} combinedReducers the current reducers factory of the component\n * @returns {Function} combination of the current reducer factory and the new (with reset functionality) reducer factory\n **/\nexport default combinedReducers => (state, action) => {\n  switch (action.type) {\n    case types.RESET:\n      state = undefined; // eslint-disable-line no-undefined\n      break;\n    default:\n      // do nothing\n      break;\n  }\n  return combinedReducers(state, action);\n};\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/hoc/cleanOnUnmount/reducer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 95,
+    "kind": "function",
+    "name": "reducer",
+    "memberof": "app/hoc/cleanOnUnmount/reducer.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/hoc/cleanOnUnmount/reducer.js~reducer",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/hoc/cleanOnUnmount/reducer.js",
+    "importStyle": "reducer",
+    "description": "hoc/cleanOnUnmount/reducer.js : the cleanOnUnmount HOC reducer factory",
+    "lineNumber": 8,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Function} combination of the current reducer factory and the new (with reset functionality) reducer factory"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "combinedReducers",
+        "description": "the current reducers factory of the component"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Function"
+      ],
+      "spread": false,
+      "description": "combination of the current reducer factory and the new (with reset functionality) reducer factory"
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "file",
+    "name": "app/hoc/index.js",
+    "content": "// add all new HOCs here to export\nexport { default as reduxConnect } from '@hoc/reduxConnect';\nexport { default as cleanOnUnmount } from '@hoc/cleanOnUnmount';\nexport { default as asyncComponent } from '@hoc/asyncComponent/index';\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/hoc/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 97,
+    "kind": "file",
+    "name": "app/hoc/reduxConnect/index.js",
+    "content": "// Props Proxy HOC\n\nimport connect from 'react-redux/lib/connect/connect';\nimport withRouter from 'react-router-dom/withRouter';\n\n/**\n * hoc/reduxConnect : maps state to props function\n * @param {Object} state the state of the container\n * @returns {Object} state\n **/\nfunction mapStateToProps(state) {\n  return state;\n}\n\n/**\n * hoc/reduxConnect : connects state and actions to the component\n * @param {Object} WrappedComponent the react component that needs to be connected to the actions and state\n * @param {Object} actions the action factories of the component\n * @param {Object} state the state factory function\n * @returns {class} returns a react component\n **/\nexport default function(WrappedComponent, actions, state = mapStateToProps) {\n  return withRouter(\n    connect(\n      state,\n      actions,\n    )(WrappedComponent),\n  );\n}\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/hoc/reduxConnect/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 98,
+    "kind": "function",
+    "name": "mapStateToProps",
+    "memberof": "app/hoc/reduxConnect/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/hoc/reduxConnect/index.js~mapStateToProps",
+    "access": "public",
+    "export": false,
+    "importPath": "react-redux-enterprise/app/hoc/reduxConnect/index.js",
+    "importStyle": null,
+    "description": "hoc/reduxConnect : maps state to props function",
+    "lineNumber": 11,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Object} state"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "state",
+        "description": "the state of the container"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "state"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 99,
+    "kind": "function",
+    "name": "index",
+    "memberof": "app/hoc/reduxConnect/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "app/hoc/reduxConnect/index.js~index",
+    "access": "public",
+    "export": true,
+    "importPath": "react-redux-enterprise/app/hoc/reduxConnect/index.js",
+    "importStyle": "index",
+    "description": "hoc/reduxConnect : connects state and actions to the component",
+    "lineNumber": 22,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{class} returns a react component"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "WrappedComponent",
+        "description": "the react component that needs to be connected to the actions and state"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "actions",
+        "description": "the action factories of the component"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "state",
+        "description": "the state factory function"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "class"
+      ],
+      "spread": false,
+      "description": "returns a react component"
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "file",
+    "name": "app/reducers/index.js",
+    "content": "// add all new reducers here to export\nexport { default as home } from '@containers/home/reducer';\nexport { default as app } from '@containers/app/reducer';\n",
+    "static": true,
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/app/reducers/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "# React-Redux-Enterprise\n\n[![stars](https://img.shields.io/github/stars/Amin52J/React-Redux-Enterprise.svg?style=for-the-badge)](https://github.com/Amin52J/React-Redux-Enterprise/stargazers)\n[![license](https://img.shields.io/github/license/Amin52J/React-Redux-Enterprise.svg?style=for-the-badge)](https://github.com/Amin52J/React-Redux-Enterprise/blob/master/LICENSE)\n\nA React-Redux boilerplate for enterprise web applications.\n\n### Materials\n\nThis repo is the minimal and extendable setup to start a new enterprise large-scaled project based on React & Redux & RxJS.\n\n* **babel:** to transpile our ES6-7 code ES5\n* **documentation.js:** to generate docs\n* **enzyme:** as our test util\n* **eslint:** to have linting utility over our code\n* **jest:** as our test framework\n* **prettier:** to apply linting to our code before commits\n* **react:** as our framework\n* **react-redux:** to handle data flow\n* **react-router:** to handle routing\n* **react-router-redux:** to handle routing\n* **redux:** to handle data flow\n* **redux-observable:** to handle async actions\n* **redux-persist:** to have persistent store\n* **rxjs:** to handle observable actions\n* **styled-components:** to style our project\n* **webpack:** as our module bundler\n\n### How to start?\n\n* Clone the project\n* `yarn`\n* `yarn start`\n* visit [localhost:8080](http://127.0.0.1:8080)\n\n### NOTE:\n\n* To run the server you need to install `http-server-spa` as a global module, or you can implement your own server and point it to the public directory.\n* You need to install `documentation` as a global module.\n* All modules used are the latest versions and are implemented according to their respective latest version docs. (as of Oct 2018)\n\n### Scripts\n\n* `yarn build` to make a single production build\n* `yarn dev` to make a single development build\n* `yarn docs` to generate the docs\n* `yarn lint` to run the lint check\n* `yarn start` to start the server\n* `yarn test` to run the tests\n* `yarn watch` to start watching for file changes\n\n### Read On\n\nTo read more about this project and to get familiar with the structure and find out the logic behind it, check out the articles on [Medium](https://medium.com/@a.jafari.90/how-to-start-an-enterprise-project-with-react-and-redux-563d73b61ef4), [Quora](https://amin52j.quora.com/How-to-start-an-enterprise-project-with-React-and-Redux) or [LinkedIn](https://www.linkedin.com/pulse/how-start-enterprise-project-react-andredux-amin-jafari/)\n\n### License\n\nThis project is licensed under the [MIT License](https://github.com/Amin52J/React-Redux-Enterprise/blob/master/LICENSE).\n",
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"react-redux-enterprise\",\n  \"version\": \"1.5.0\",\n  \"author\": \"Amin Jafari\",\n  \"description\": \"A React-Redux boilerplate for enterprise web applications\",\n  \"main\": \"app/main.jsx\",\n  \"scripts\": {\n    \"build\": \"NODE_ENV=production webpack --mode production\",\n    \"dev\": \"webpack --mode development\",\n    \"docs\": \"esdoc\",\n    \"lint\": \"prettier --write \\\"**/*.jsx\\\" && prettier --write \\\"**/*.js\\\" && eslint --fix ./app/**/*.{js,jsx} ; eslint --fix ./*.{js,jsx}\",\n    \"prebuild\": \"rm -rf public\",\n    \"precommit\": \"lint-staged\",\n    \"predocs\": \"rm -rf docs\",\n    \"preversion\": \"yarn test && yarn build && yarn docs\",\n    \"start\": \"http-server-spa ./public\",\n    \"test\": \"jest --updateSnapshot\",\n    \"watch\": \"webpack --mode development --watch\"\n  },\n  \"browserslist\": [\n    \"> 5%\"\n  ],\n  \"jest\": {\n    \"moduleNameMapper\": {\n      \"^@actions(.*)$\": \"<rootDir>/app/actions$1\",\n      \"^@components(.*)$\": \"<rootDir>/app/components$1\",\n      \"^@constants(.*)$\": \"<rootDir>/app/constants$1\",\n      \"^@containers(.*)$\": \"<rootDir>/app/containers$1\",\n      \"^@elements(.*)$\": \"<rootDir>/app/elements$1\",\n      \"^@hoc(.*)$\": \"<rootDir>/app/hoc$1\",\n      \"^@reducers(.*)$\": \"<rootDir>/app/reducers$1\",\n      \"^@epics(.*)$\": \"<rootDir>/app/epics$1\",\n      \"^@root(.*)$\": \"<rootDir>/app$1\",\n      \"\\\\.(css|scss)$\": \"identity-obj-proxy\"\n    },\n    \"setupFiles\": [\n      \"<rootDir>/shim.js\",\n      \"<rootDir>/test.setup.js\"\n    ]\n  },\n  \"dependencies\": {\n    \"history\": \"^4.7.2\",\n    \"prop-types\": \"^15.6.1\",\n    \"react\": \"^16.4.0\",\n    \"react-dom\": \"^16.4.0\",\n    \"react-redux\": \"^5.0.7\",\n    \"react-router\": \"^4.2.0\",\n    \"react-router-dom\": \"^4.2.2\",\n    \"react-router-redux\": \"next\",\n    \"redux\": \"^4.0.0\",\n    \"redux-observable\": \"^0.18.0\",\n    \"redux-persist\": \"^5.9.1\",\n    \"rxjs\": \"^5.5.11\",\n    \"styled-components\": \"^3.4.9\"\n  },\n  \"devDependencies\": {\n    \"@babel/cli\": \"^7.1.2\",\n    \"@babel/core\": \"^7.1.2\",\n    \"@babel/plugin-proposal-class-properties\": \"^7.1.0\",\n    \"@babel/plugin-proposal-object-rest-spread\": \"^7.0.0\",\n    \"@babel/plugin-proposal-optional-chaining\": \"^7.0.0\",\n    \"@babel/plugin-syntax-dynamic-import\": \"^7.0.0\",\n    \"@babel/plugin-transform-async-to-generator\": \"^7.0.0\",\n    \"@babel/plugin-transform-react-jsx\": \"^7.0.0\",\n    \"@babel/polyfill\": \"^7.0.0\",\n    \"@babel/preset-env\": \"^7.0.0\",\n    \"@babel/preset-react\": \"^7.0.0\",\n    \"babel-core\": \"^7.0.0-bridge\",\n    \"babel-eslint\": \"8.0.1\",\n    \"babel-jest\": \"^23.6.0\",\n    \"babel-loader\": \"7.1.4\",\n    \"babel-plugin-dynamic-import-node\": \"^1.2.0\",\n    \"babel-plugin-styled-components\": \"^1.8.0\",\n    \"babel-plugin-transform-object-rest-spread\": \"^6.26.0\",\n    \"copy-webpack-plugin\": \"^4.5.1\",\n    \"enzyme\": \"^3.3.0\",\n    \"enzyme-adapter-react-16\": \"^1.1.1\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^4.19.1\",\n    \"eslint-config-airbnb\": \"^15.1.0\",\n    \"eslint-config-prettier\": \"^3.0.1\",\n    \"eslint-plugin-import\": \"^2.10.0\",\n    \"eslint-plugin-jsx-a11y\": \"^6.0.3\",\n    \"eslint-plugin-prettier\": \"^2.6.2\",\n    \"eslint-plugin-react\": \"^7.8.2\",\n    \"identity-obj-proxy\": \"^3.0.0\",\n    \"isomorphic-fetch\": \"^2.2.1\",\n    \"jest\": \"^23.0.0\",\n    \"json-loader\": \"^0.5.7\",\n    \"lint-staged\": \"^7.0.0\",\n    \"path\": \"^0.12.7\",\n    \"prettier\": \"^1.14.3\",\n    \"react-test-renderer\": \"^16.4.0\",\n    \"uglifyjs-webpack-plugin\": \"^1.2.5\",\n    \"url-loader\": \"^1.0.1\",\n    \"webpack\": \"^4.9.1\",\n    \"webpack-cli\": \"^3.1.1\"\n  },\n  \"lint-staged\": {\n    \"*.{js,jsx}\": [\n      \"prettier --write\",\n      \"eslint --fix\",\n      \"git add\"\n    ]\n  },\n  \"engines\": {\n    \"node\": \">=8.11.1\"\n  },\n  \"repository\": \"https://github.com/Amin52J/React-Redux-Enterprise\",\n  \"license\": \"MIT\",\n  \"private\": false\n}\n",
+    "longname": "/Users/amin52j/Desktop/Projects/React-Redux-Enterprise/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
