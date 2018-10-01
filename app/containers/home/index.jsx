@@ -17,7 +17,7 @@ class Home extends React.Component {
     } = this.props;
 
     return (
-      <HomeContainer>
+      <HomeContainer className="home-page">
         Home Page
         <TestComponent />
       </HomeContainer>

@@ -28,7 +28,7 @@ class App extends React.Component {
     } = this.props;
 
     return (
-      <AppContainer>
+      <AppContainer className="app">
         <Link to="/">Home</Link>
         <Link to="/test">Test</Link>
         App Page

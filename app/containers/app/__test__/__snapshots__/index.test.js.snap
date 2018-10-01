@@ -2,7 +2,7 @@
 
 exports[`App Container - Container renders with no problem 1`] = `
 <div
-  className="app"
+  className="app sc-bdVaJa bDWFJH"
 >
   <a
     href="/"

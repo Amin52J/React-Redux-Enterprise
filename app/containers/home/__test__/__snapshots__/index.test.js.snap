@@ -2,15 +2,15 @@
 
 exports[`Home Container - Container renders with no problem 1`] = `
 <div
-  className="home-page"
+  className="home-page sc-htpNat bwjOlV"
 >
   Home Page
   <div
-    className="test-component"
+    className="test-component sc-bwzfXH jPKXJw"
   >
     Test Component
     <div
-      className="test-element"
+      className="test-element sc-bdVaJa hXWJrw"
     >
       Test Element
     </div>

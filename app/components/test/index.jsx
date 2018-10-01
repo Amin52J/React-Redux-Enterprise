@@ -7,7 +7,7 @@ import TestComponent from './assets/TestComponent';
  * @returns {HTMLElement} returns test component's node
  **/
 const Test = () => (
-  <TestComponent>
+  <TestComponent className="test-component">
     Test Component
     <TestElement />
   </TestComponent>
