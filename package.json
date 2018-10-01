@@ -7,7 +7,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack --mode production",
     "dev": "webpack --mode development",
-    "docs": "documentation build app/** -f html -o docs",
+    "docs": "esdoc",
     "lint": "prettier --write \"**/*.jsx\" && prettier --write \"**/*.js\" && eslint --fix ./app/**/*.{js,jsx} ; eslint --fix ./*.{js,jsx}",
     "prebuild": "rm -rf public",
     "precommit": "lint-staged",
@@ -75,6 +75,8 @@
     "copy-webpack-plugin": "^4.5.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-config-prettier": "^3.0.1",

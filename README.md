@@ -10,8 +10,8 @@ A React-Redux boilerplate for enterprise web applications.
 This repo is the minimal and extendable setup to start a new enterprise large-scaled project based on React & Redux & RxJS.
 
 * **babel:** to transpile our ES6-7 code ES5
-* **documentation.js:** to generate docs
 * **enzyme:** as our test util
+* **esdoc:** to generate docs
 * **eslint:** to have linting utility over our code
 * **jest:** as our test framework
 * **prettier:** to apply linting to our code before commits
@@ -36,7 +36,6 @@ This repo is the minimal and extendable setup to start a new enterprise large-sc
 ### NOTE:
 
 * To run the server you need to install `http-server-spa` as a global module, or you can implement your own server and point it to the public directory.
-* You need to install `documentation` as a global module.
 * All modules used are the latest versions and are implemented according to their respective latest version docs. (as of Oct 2018)
 
 ### Scripts
