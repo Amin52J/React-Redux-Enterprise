@@ -21,7 +21,10 @@ function mapStateToProps(state) {
  * @returns {class} returns a react component
  **/
 function reduxConnect(WrappedComponent, actions, state = mapStateToProps) {
-  return connect(state, actions)(WrappedComponent);
+  return connect(
+    state,
+    actions,
+  )(WrappedComponent);
 }
 
 /**
@@ -31,7 +34,7 @@ function reduxConnect(WrappedComponent, actions, state = mapStateToProps) {
  * @param {Object} state the state factory function
  * @returns {class} returns the wrapped react component
  **/
-export default function (WrappedComponent, actions, state) {
+export default function(WrappedComponent, actions, state) {
   const Component = reduxConnect(WrappedComponent, actions, state);
 
   class Enhancer extends Component {

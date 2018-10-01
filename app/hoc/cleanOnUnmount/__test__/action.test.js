@@ -5,7 +5,7 @@ import * as types from '../../../constants/actionTypes';
 describe('cleanOnUnmount HOC - actions', () => {
   it('dispatches reset action', () => {
     expect(actions.reset()).toEqual({
-      type: types.RESET
+      type: types.RESET,
     });
   });
 });

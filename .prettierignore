@@ -1,0 +1,8 @@
+.idea/
+node_modules/
+*.log
+package-lock.json*
+public/
+docs/
+
+package.json

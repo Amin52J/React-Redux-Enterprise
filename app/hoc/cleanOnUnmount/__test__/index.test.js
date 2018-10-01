@@ -1,16 +1,14 @@
 import React from 'react';
-import {mount} from 'enzyme';
+import { mount } from 'enzyme';
 import cleanOnUnmount from '../index';
 import renderer from 'react-test-renderer';
-import store, {history} from '../../../constants/store';
-import {ConnectedRouter} from 'react-router-redux';
-import {Provider} from 'react-redux';
+import store, { history } from '../../../constants/store';
+import { ConnectedRouter } from 'react-router-redux';
+import { Provider } from 'react-redux';
 
 class Test extends React.Component {
   render() {
-    return (
-      <div className="clean-on-unmount">cleanOnUnmount</div>
-    );
+    return <div className="clean-on-unmount">cleanOnUnmount</div>;
   }
 }
 
@@ -21,13 +19,18 @@ describe('cleanOnUnmount HOC - HOC', () => {
     const component = mount(
       <Provider store={store}>
         <ConnectedRouter history={history}>
-          <AttachedTest/>
+          <AttachedTest />
         </ConnectedRouter>
-      </Provider>
+      </Provider>,
     );
     const tree = renderer.create(component).toJSON();
 
-    expect(component.find('div').first().hasClass('clean-on-unmount')).toEqual(true);
+    expect(
+      component
+        .find('div')
+        .first()
+        .hasClass('clean-on-unmount'),
+    ).toEqual(true);
     expect(tree).toMatchSnapshot();
   });
 });

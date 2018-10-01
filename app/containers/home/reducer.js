@@ -5,7 +5,9 @@ import storage from 'redux-persist/lib/storage';
 const persistConfig = {
   key: 'home',
   storage,
-  whitelist: [/* keys to be persisted */]
+  whitelist: [
+    /* keys to be persisted */
+  ],
 };
 
 const initialState = {};
@@ -21,21 +23,21 @@ function home(state = initialState, action) {
     case types.HOME_TEST:
       return {
         ...state,
-        loading: true
+        loading: true,
       };
 
     case types.HOME_TEST_SUCCESS:
       return {
         ...state,
         loading: false,
-        success: true
+        success: true,
       };
 
     case types.HOME_TEST_ERROR:
       return {
         ...state,
         loading: false,
-        error: true
+        error: true,
       };
 
     default:

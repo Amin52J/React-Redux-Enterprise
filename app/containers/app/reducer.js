@@ -5,7 +5,9 @@ import storage from 'redux-persist/lib/storage';
 const persistConfig = {
   key: 'app',
   storage,
-  whitelist: [ /* keys to be persisted */ ]
+  whitelist: [
+    /* keys to be persisted */
+  ],
 };
 
 const initialState = {};
@@ -21,7 +23,7 @@ function app(state = initialState, action) {
     case types.TEST:
       return {
         ...state,
-        loading: true
+        loading: true,
       };
 
     case types.TEST_SUCCESS:
@@ -29,14 +31,14 @@ function app(state = initialState, action) {
         ...state,
         loading: false,
         success: true,
-        appData: action.payload
+        appData: action.payload,
       };
 
     case types.TEST_ERROR:
       return {
         ...state,
         loading: false,
-        error: true
+        error: true,
       };
 
     default:

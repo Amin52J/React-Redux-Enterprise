@@ -2,8 +2,7 @@ import React from 'react';
 import * as actions from '@containers/home/action';
 import { reduxConnect } from '@hoc';
 import TestComponent from '@components/test/index';
-
-import(/* webpackChunkName: "/css/chunks/home" */ './_index.scss');
+import HomeContainer from './assets/HomeContainer';
 
 /**
  * containers/home : Home container
@@ -13,13 +12,15 @@ import(/* webpackChunkName: "/css/chunks/home" */ './_index.scss');
  **/
 class Home extends React.Component {
   render() {
-    const { home: { test } } = this.props;
+    const {
+      home: { test },
+    } = this.props;
 
     return (
-      <div className="home-page">
+      <HomeContainer>
         Home Page
         <TestComponent />
-      </div>
+      </HomeContainer>
     );
   }
 }

@@ -8,7 +8,7 @@ import * as types from '@constants/actionTypes';
 export function test(payload) {
   return {
     type: types.TEST,
-    payload
+    payload,
   };
 }
 
@@ -20,7 +20,7 @@ export function test(payload) {
 export function testSuccess(payload) {
   return {
     type: types.TEST_SUCCESS,
-    payload
+    payload,
   };
 }
 
@@ -32,7 +32,7 @@ export function testSuccess(payload) {
 export function testError(payload) {
   return {
     type: types.TEST_ERROR,
-    payload
+    payload,
   };
 }
 
@@ -44,6 +44,6 @@ export function testError(payload) {
 export function testCancel(payload) {
   return {
     type: types.TEST_CANCEL,
-    payload
+    payload,
   };
 }

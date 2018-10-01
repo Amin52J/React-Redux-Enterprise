@@ -1,16 +1,12 @@
 import React from 'react';
 
-import './_index.scss';
+import TestElement from './assets/TestElement';
 
 /**
  * elements/test : Test elements
  * @returns {HTMLElement} returns test element's node
  **/
-const Test = () => (
-  <div className="test-element">
-    Test Element
-  </div>
-);
+const Test = () => <TestElement>Test Element</TestElement>;
 
 Test.defaultProps = {};
 

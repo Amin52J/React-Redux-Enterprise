@@ -25,16 +25,19 @@ export const history = createHistory();
 const epicMiddleware = createEpicMiddleware(epics, {
   dependencies: {
     getJSON: ajax.getJSON,
-    of
-  }
+    of,
+  },
 });
 
 // the reducers
 const combinedReducers = combineReducers({
   ...reducers,
-  routing: routerReducer
+  routing: routerReducer,
 });
 const reducer = hocReducer(combinedReducers); // adds reset reducer to our apps reducer
-const store = createStore(reducer, applyMiddleware(epicMiddleware, routerMiddleware(history)));
+const store = createStore(
+  reducer,
+  applyMiddleware(epicMiddleware, routerMiddleware(history)),
+);
 
 export default store;

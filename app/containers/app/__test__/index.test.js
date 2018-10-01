@@ -1,9 +1,9 @@
 import React from 'react';
-import {mount} from 'enzyme';
+import { mount } from 'enzyme';
 import App from '../index';
-import store, {history} from '../../../constants/store';
-import {ConnectedRouter} from 'react-router-redux';
-import {Provider} from 'react-redux';
+import store, { history } from '../../../constants/store';
+import { ConnectedRouter } from 'react-router-redux';
+import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 
 describe('App Container - Container', () => {
@@ -11,13 +11,18 @@ describe('App Container - Container', () => {
     const component = mount(
       <Provider store={store}>
         <ConnectedRouter history={history}>
-          <App/>
+          <App />
         </ConnectedRouter>
-      </Provider>
+      </Provider>,
     );
     const tree = renderer.create(component).toJSON();
 
-    expect(component.find('div').first().hasClass('app')).toEqual(true);
+    expect(
+      component
+        .find('div')
+        .first()
+        .hasClass('app'),
+    ).toEqual(true);
     expect(tree).toMatchSnapshot();
   });
 });

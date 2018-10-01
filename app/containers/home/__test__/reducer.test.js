@@ -4,28 +4,43 @@ import * as types from '../../../constants/actionTypes';
 
 describe('Home Container - reducers', () => {
   it('sets loading state', () => {
-    expect(reducer({}, {
-      type: types.HOME_TEST
-    })).toEqual({
-      loading: true
+    expect(
+      reducer(
+        {},
+        {
+          type: types.HOME_TEST,
+        },
+      ),
+    ).toEqual({
+      loading: true,
     });
   });
 
   it('sets success state', () => {
-    expect(reducer({}, {
-      type: types.HOME_TEST_SUCCESS
-    })).toEqual({
+    expect(
+      reducer(
+        {},
+        {
+          type: types.HOME_TEST_SUCCESS,
+        },
+      ),
+    ).toEqual({
       loading: false,
-      success: true
+      success: true,
     });
   });
 
   it('sets error state', () => {
-    expect(reducer({}, {
-      type: types.HOME_TEST_ERROR
-    })).toEqual({
+    expect(
+      reducer(
+        {},
+        {
+          type: types.HOME_TEST_ERROR,
+        },
+      ),
+    ).toEqual({
       loading: false,
-      error: true
+      error: true,
     });
   });
 

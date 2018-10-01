@@ -219,8 +219,8 @@
       var b = elements[this.b];
       var percentage = a.size + b.size;
 
-      a.size = offset / this.size * percentage;
-      b.size = percentage - offset / this.size * percentage;
+      a.size = (offset / this.size) * percentage;
+      b.size = percentage - (offset / this.size) * percentage;
 
       setElementSize(a.element, a.size, this.aGutterSize);
       setElementSize(b.element, b.size, this.bGutterSize);
@@ -432,7 +432,7 @@
       var element = {
         element: elementOrSelector(id),
         size: sizes[i],
-        minSize: minSizes[i]
+        minSize: minSizes[i],
       };
 
       var pair;
@@ -446,7 +446,7 @@
           isFirst: i === 1,
           isLast: i === ids.length - 1,
           direction: direction,
-          parent: parent
+          parent: parent,
         };
 
         // For first and last pairs, first and last gutter width is half.
@@ -485,11 +485,11 @@
 
           gutterElement[addEventListener](
             'mousedown',
-            startDragging.bind(pair)
+            startDragging.bind(pair),
           );
           gutterElement[addEventListener](
             'touchstart',
-            startDragging.bind(pair)
+            startDragging.bind(pair),
           );
 
           parent.insertBefore(gutterElement, element.element);
@@ -548,7 +548,7 @@
     if (isIE8) {
       return {
         setSizes: setSizes,
-        destroy: destroy
+        destroy: destroy,
       };
     }
 
@@ -578,7 +578,7 @@
           }
         }
       },
-      destroy: destroy
+      destroy: destroy,
     };
   };
 

@@ -4,30 +4,45 @@ import * as types from '../../../constants/actionTypes';
 
 describe('App Container - reducers', () => {
   it('sets loading state', () => {
-    expect(reducer({}, {
-      type: types.TEST
-    })).toEqual({
-      loading: true
+    expect(
+      reducer(
+        {},
+        {
+          type: types.TEST,
+        },
+      ),
+    ).toEqual({
+      loading: true,
     });
   });
 
   it('sets success state', () => {
-    expect(reducer({}, {
-      type: types.TEST_SUCCESS,
-      payload: 'success'
-    })).toEqual({
+    expect(
+      reducer(
+        {},
+        {
+          type: types.TEST_SUCCESS,
+          payload: 'success',
+        },
+      ),
+    ).toEqual({
       loading: false,
       success: true,
-      appData: 'success'
+      appData: 'success',
     });
   });
 
   it('sets error state', () => {
-    expect(reducer({}, {
-      type: types.TEST_ERROR
-    })).toEqual({
+    expect(
+      reducer(
+        {},
+        {
+          type: types.TEST_ERROR,
+        },
+      ),
+    ).toEqual({
       loading: false,
-      error: true
+      error: true,
     });
   });
 

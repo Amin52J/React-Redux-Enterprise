@@ -1,2 +1,439 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1,2],{165:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r,o=n(1),u=(r=o)&&r.__esModule?r:{default:r},a=n(168);n.e(6).then(function(){var e=n(172);return"object"==typeof e&&e&&e.__esModule?e:Object.assign({},"object"==typeof e&&e,{default:e})});var l=function(){return u.default.createElement("div",{className:"test-component"},"Test Component",u.default.createElement(a.Test,null))};l.defaultProps={},l.propTypes={},t.default=l},166:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=function(){function e(e,t){for(var n=0;t.length>n;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}return function(t,n,r){return n&&e(t.prototype,n),r&&e(t,r),t}}(),o=f(n(1)),u=function(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var n in e)Object.prototype.hasOwnProperty.call(e,n)&&(t[n]=e[n]);return t.default=e,t}(n(78)),a=n(49),l=f(n(165));function f(e){return e&&e.__esModule?e:{default:e}}n.e(7).then(function(){var e=n(174);return"object"==typeof e&&e&&e.__esModule?e:Object.assign({},"object"==typeof e&&e,{default:e})});var c=function(e){function t(){return function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,t),function(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!t||"object"!=typeof t&&"function"!=typeof t?e:t}(this,(t.__proto__||Object.getPrototypeOf(t)).apply(this,arguments))}return function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t);e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}}),t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}(t,o.default.Component),r(t,[{key:"render",value:function(){return o.default.createElement("div",{className:"home-page"},"Home Page",o.default.createElement(l.default,null))}}]),t}();t.default=(0,a.reduxConnect)(c,u)},168:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=n(169);Object.defineProperty(t,"Test",{enumerable:!0,get:function(){return(e=r,e&&e.__esModule?e:{default:e}).default;var e}})},169:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r,o=n(1),u=(r=o)&&r.__esModule?r:{default:r};n(170);var a=function(){return u.default.createElement("div",{className:"test-element"},"Test Element")};a.defaultProps={},a.propTypes={},t.default=a},170:function(e,t,n){}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  ['/js/chunks/home'],
+  {
+    /***/ './app/components/test/assets/TestComponent.js':
+      /*!*****************************************************!*\
+  !*** ./app/components/test/assets/TestComponent.js ***!
+  \*****************************************************/
+      /*! no static exports found */
+      /***/ function(module, exports, __webpack_require__) {
+        'use strict';
+
+        Object.defineProperty(exports, '__esModule', {
+          value: true,
+        });
+        exports.default = void 0;
+
+        var _styledComponents = _interopRequireDefault(
+          __webpack_require__(
+            /*! styled-components */ './node_modules/styled-components/dist/styled-components.browser.esm.js',
+          ),
+        );
+
+        function _interopRequireDefault(obj) {
+          return obj && obj.__esModule ? obj : { default: obj };
+        }
+
+        var TestComponent = _styledComponents.default.div(['color:green;']);
+
+        var _default = TestComponent;
+        exports.default = _default;
+
+        /***/
+      },
+
+    /***/ './app/components/test/index.jsx':
+      /*!***************************************!*\
+  !*** ./app/components/test/index.jsx ***!
+  \***************************************/
+      /*! no static exports found */
+      /***/ function(module, exports, __webpack_require__) {
+        'use strict';
+
+        Object.defineProperty(exports, '__esModule', {
+          value: true,
+        });
+        exports.default = void 0;
+
+        var _react = _interopRequireDefault(
+          __webpack_require__(/*! react */ './node_modules/react/index.js'),
+        );
+
+        var _elements = __webpack_require__(
+          /*! @elements */ './app/elements/index.js',
+        );
+
+        var _TestComponent = _interopRequireDefault(
+          __webpack_require__(
+            /*! ./assets/TestComponent */ './app/components/test/assets/TestComponent.js',
+          ),
+        );
+
+        function _interopRequireDefault(obj) {
+          return obj && obj.__esModule ? obj : { default: obj };
+        }
+
+        /**
+         * components/test : Test component
+         * @returns {HTMLElement} returns test component's node
+         **/
+        var Test = function Test() {
+          return _react.default.createElement(
+            _TestComponent.default,
+            null,
+            'Test Component',
+            _react.default.createElement(_elements.Test, null),
+          );
+        };
+
+        Test.defaultProps = {};
+        Test.propTypes = {};
+        var _default = Test;
+        exports.default = _default;
+
+        /***/
+      },
+
+    /***/ './app/containers/home/assets/HomeContainer.js':
+      /*!*****************************************************!*\
+  !*** ./app/containers/home/assets/HomeContainer.js ***!
+  \*****************************************************/
+      /*! no static exports found */
+      /***/ function(module, exports, __webpack_require__) {
+        'use strict';
+
+        Object.defineProperty(exports, '__esModule', {
+          value: true,
+        });
+        exports.default = void 0;
+
+        var _styledComponents = _interopRequireDefault(
+          __webpack_require__(
+            /*! styled-components */ './node_modules/styled-components/dist/styled-components.browser.esm.js',
+          ),
+        );
+
+        function _interopRequireDefault(obj) {
+          return obj && obj.__esModule ? obj : { default: obj };
+        }
+
+        var HomeContainer = _styledComponents.default.div(['color:red;']);
+
+        var _default = HomeContainer;
+        exports.default = _default;
+
+        /***/
+      },
+
+    /***/ './app/containers/home/index.jsx':
+      /*!***************************************!*\
+  !*** ./app/containers/home/index.jsx ***!
+  \***************************************/
+      /*! no static exports found */
+      /***/ function(module, exports, __webpack_require__) {
+        'use strict';
+
+        Object.defineProperty(exports, '__esModule', {
+          value: true,
+        });
+        exports.default = void 0;
+
+        var _react = _interopRequireDefault(
+          __webpack_require__(/*! react */ './node_modules/react/index.js'),
+        );
+
+        var actions = _interopRequireWildcard(
+          __webpack_require__(
+            /*! @containers/home/action */ './app/containers/home/action.js',
+          ),
+        );
+
+        var _hoc = __webpack_require__(/*! @hoc */ './app/hoc/index.js');
+
+        var _index = _interopRequireDefault(
+          __webpack_require__(
+            /*! @components/test/index */ './app/components/test/index.jsx',
+          ),
+        );
+
+        var _HomeContainer = _interopRequireDefault(
+          __webpack_require__(
+            /*! ./assets/HomeContainer */ './app/containers/home/assets/HomeContainer.js',
+          ),
+        );
+
+        function _interopRequireWildcard(obj) {
+          if (obj && obj.__esModule) {
+            return obj;
+          } else {
+            var newObj = {};
+            if (obj != null) {
+              for (var key in obj) {
+                if (Object.prototype.hasOwnProperty.call(obj, key)) {
+                  var desc =
+                    Object.defineProperty && Object.getOwnPropertyDescriptor
+                      ? Object.getOwnPropertyDescriptor(obj, key)
+                      : {};
+                  if (desc.get || desc.set) {
+                    Object.defineProperty(newObj, key, desc);
+                  } else {
+                    newObj[key] = obj[key];
+                  }
+                }
+              }
+            }
+            newObj.default = obj;
+            return newObj;
+          }
+        }
+
+        function _interopRequireDefault(obj) {
+          return obj && obj.__esModule ? obj : { default: obj };
+        }
+
+        function _typeof(obj) {
+          if (
+            typeof Symbol === 'function' &&
+            typeof Symbol.iterator === 'symbol'
+          ) {
+            _typeof = function _typeof(obj) {
+              return typeof obj;
+            };
+          } else {
+            _typeof = function _typeof(obj) {
+              return obj &&
+                typeof Symbol === 'function' &&
+                obj.constructor === Symbol &&
+                obj !== Symbol.prototype
+                ? 'symbol'
+                : typeof obj;
+            };
+          }
+          return _typeof(obj);
+        }
+
+        function _classCallCheck(instance, Constructor) {
+          if (!(instance instanceof Constructor)) {
+            throw new TypeError('Cannot call a class as a function');
+          }
+        }
+
+        function _defineProperties(target, props) {
+          for (var i = 0; i < props.length; i++) {
+            var descriptor = props[i];
+            descriptor.enumerable = descriptor.enumerable || false;
+            descriptor.configurable = true;
+            if ('value' in descriptor) descriptor.writable = true;
+            Object.defineProperty(target, descriptor.key, descriptor);
+          }
+        }
+
+        function _createClass(Constructor, protoProps, staticProps) {
+          if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+          if (staticProps) _defineProperties(Constructor, staticProps);
+          return Constructor;
+        }
+
+        function _possibleConstructorReturn(self, call) {
+          if (
+            call &&
+            (_typeof(call) === 'object' || typeof call === 'function')
+          ) {
+            return call;
+          }
+          return _assertThisInitialized(self);
+        }
+
+        function _assertThisInitialized(self) {
+          if (self === void 0) {
+            throw new ReferenceError(
+              "this hasn't been initialised - super() hasn't been called",
+            );
+          }
+          return self;
+        }
+
+        function _getPrototypeOf(o) {
+          _getPrototypeOf = Object.setPrototypeOf
+            ? Object.getPrototypeOf
+            : function _getPrototypeOf(o) {
+                return o.__proto__ || Object.getPrototypeOf(o);
+              };
+          return _getPrototypeOf(o);
+        }
+
+        function _inherits(subClass, superClass) {
+          if (typeof superClass !== 'function' && superClass !== null) {
+            throw new TypeError(
+              'Super expression must either be null or a function',
+            );
+          }
+          subClass.prototype = Object.create(
+            superClass && superClass.prototype,
+            {
+              constructor: {
+                value: subClass,
+                writable: true,
+                configurable: true,
+              },
+            },
+          );
+          if (superClass) _setPrototypeOf(subClass, superClass);
+        }
+
+        function _setPrototypeOf(o, p) {
+          _setPrototypeOf =
+            Object.setPrototypeOf ||
+            function _setPrototypeOf(o, p) {
+              o.__proto__ = p;
+              return o;
+            };
+          return _setPrototypeOf(o, p);
+        }
+
+        /**
+         * containers/home : Home container
+         * @param {Object} props the properties of the container
+         * @param {Object} props.home the redux state of the container
+         * @param {Object} props.home.test the test property of the container
+         **/
+        var Home =
+          /*#__PURE__*/
+          (function(_React$Component) {
+            _inherits(Home, _React$Component);
+
+            function Home() {
+              _classCallCheck(this, Home);
+
+              return _possibleConstructorReturn(
+                this,
+                _getPrototypeOf(Home).apply(this, arguments),
+              );
+            }
+
+            _createClass(Home, [
+              {
+                key: 'render',
+                value: function render() {
+                  var test = this.props.home.test;
+                  return _react.default.createElement(
+                    _HomeContainer.default,
+                    null,
+                    'Home Page',
+                    _react.default.createElement(_index.default, null),
+                  );
+                },
+              },
+            ]);
+
+            return Home;
+          })(_react.default.Component);
+
+        var _default = (0, _hoc.reduxConnect)(Home, actions);
+
+        exports.default = _default;
+
+        /***/
+      },
+
+    /***/ './app/elements/index.js':
+      /*!*******************************!*\
+  !*** ./app/elements/index.js ***!
+  \*******************************/
+      /*! no static exports found */
+      /***/ function(module, exports, __webpack_require__) {
+        'use strict';
+
+        Object.defineProperty(exports, '__esModule', {
+          value: true,
+        });
+        Object.defineProperty(exports, 'Test', {
+          enumerable: true,
+          get: function get() {
+            return _index.default;
+          },
+        });
+
+        var _index = _interopRequireDefault(
+          __webpack_require__(
+            /*! @elements/test/index */ './app/elements/test/index.jsx',
+          ),
+        );
+
+        function _interopRequireDefault(obj) {
+          return obj && obj.__esModule ? obj : { default: obj };
+        }
+
+        /***/
+      },
+
+    /***/ './app/elements/test/assets/TestElement.js':
+      /*!*************************************************!*\
+  !*** ./app/elements/test/assets/TestElement.js ***!
+  \*************************************************/
+      /*! no static exports found */
+      /***/ function(module, exports, __webpack_require__) {
+        'use strict';
+
+        Object.defineProperty(exports, '__esModule', {
+          value: true,
+        });
+        exports.default = void 0;
+
+        var _styledComponents = _interopRequireDefault(
+          __webpack_require__(
+            /*! styled-components */ './node_modules/styled-components/dist/styled-components.browser.esm.js',
+          ),
+        );
+
+        function _interopRequireDefault(obj) {
+          return obj && obj.__esModule ? obj : { default: obj };
+        }
+
+        var TestElement = _styledComponents.default.div(['color:blue;']);
+
+        var _default = TestElement;
+        exports.default = _default;
+
+        /***/
+      },
+
+    /***/ './app/elements/test/index.jsx':
+      /*!*************************************!*\
+  !*** ./app/elements/test/index.jsx ***!
+  \*************************************/
+      /*! no static exports found */
+      /***/ function(module, exports, __webpack_require__) {
+        'use strict';
+
+        Object.defineProperty(exports, '__esModule', {
+          value: true,
+        });
+        exports.default = void 0;
+
+        var _react = _interopRequireDefault(
+          __webpack_require__(/*! react */ './node_modules/react/index.js'),
+        );
+
+        var _TestElement = _interopRequireDefault(
+          __webpack_require__(
+            /*! ./assets/TestElement */ './app/elements/test/assets/TestElement.js',
+          ),
+        );
+
+        function _interopRequireDefault(obj) {
+          return obj && obj.__esModule ? obj : { default: obj };
+        }
+
+        /**
+         * elements/test : Test elements
+         * @returns {HTMLElement} returns test element's node
+         **/
+        var Test = function Test() {
+          return _react.default.createElement(
+            _TestElement.default,
+            null,
+            'Test Element',
+          );
+        };
+
+        Test.defaultProps = {};
+        Test.propTypes = {};
+        var _default = Test;
+        exports.default = _default;
+
+        /***/
+      },
+  },
+]);
 //# sourceMappingURL=home.js.map

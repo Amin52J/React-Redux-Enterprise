@@ -1,17 +1,16 @@
 import React from 'react';
 import { Test as TestElement } from '@elements';
-
-import(/* webpackChunkName: "/css/chunks/components/test-component" */ './_index.scss');
+import TestComponent from './assets/TestComponent';
 
 /**
  * components/test : Test component
  * @returns {HTMLElement} returns test component's node
  **/
 const Test = () => (
-  <div className="test-component">
+  <TestComponent>
     Test Component
     <TestElement />
-  </div>
+  </TestComponent>
 );
 
 Test.defaultProps = {};
