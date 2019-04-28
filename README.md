@@ -5,6 +5,8 @@
 
 A React-Redux boilerplate for enterprise web applications.
 
+Before you start with this boilerplate, please take a few minutes to read [this article](https://medium.com/@a.jafari.90/framework-less-single-page-application-a547325f6e0c) and see if you really need this or you may want to try [another option](https://github.com/Amin52J/frameworkless-spa).
+
 ### Materials
 
 This repo is the minimal and extendable setup to start a new enterprise large-scaled project based on React & Redux & RxJS.
